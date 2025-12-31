@@ -1,0 +1,40 @@
+[DEBUG] Watching for changes in setting files /home/raine/.claude/settings.json...
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] MCP server "claude-thoughts": Starting connection with timeout of 30000ms
+[ERROR] MCP server "claude-thoughts" Server stderr: 2025-11-14 18:40:22,815 - __main__ - INFO - ✓ SYSTEM utilities loaded
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.4069779.1763145622854
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 189512 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.4069779.1763145622854 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[ERROR] MCP server "claude-thoughts" Server stderr: 2025-11-14 18:40:23,092 - __main__ - INFO - Initializing MCP Server
+[ERROR] MCP server "claude-thoughts" Server stderr: 2025-11-14 18:40:23,093 - system.memory_bus - INFO - ✓ MemoryBus initialized (the nervous system is alive)
+2025-11-14 18:40:23,093 - system.health_monitor - INFO - Health monitor initialized
+2025-11-14 18:40:23,093 - __main__ - INFO - ✓ Connected to MemoryBus
+Traceback (most recent call last):
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/config.py", line 37, in load_config
+    with open(config_path, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config/config.yaml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/mcp_server.py", line 1322, in <module>
+[ERROR] MCP server "claude-thoughts" Server stderr: main()
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/mcp_server.py", line 1317, in main
+    server = MCPServer()
+             ^^^^^^^^^^^
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/mcp_server.py", line 59, in __init__
+[ERROR] MCP server "claude-thoughts" Server stderr: self.config = ConfigManager()
+                  ^^^^^^^^^^^^^^^
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/config.py", line 24, in __init__
+    self.load_config()
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/config.py", line 40, in load_config
+    raise FileNotFoundError(
+FileNotFoundError: Configuration file not found: config/config.yaml. Please run 'ct config init' to initialize.
+[DEBUG] MCP server "claude-thoughts": Connection failed after 418ms: MCP error -32000: Connection closed
+[ERROR] MCP server "claude-thoughts" Connection failed: MCP error -32000: Connection closed

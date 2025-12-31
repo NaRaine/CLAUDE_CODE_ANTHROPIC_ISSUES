@@ -1,0 +1,770 @@
+# CLAUDE INITIALIZATION - READ THIS FIRST
+
+**Version:** 1.0
+**Last Updated:** 2025-11-10
+**Purpose:** Systematic startup procedure for Claude Code sessions
+
+---
+
+## IMMEDIATE ACTIONS (Do First - 2 minutes)
+
+### 0. ⚠️ CRITICAL: Read Trinity Operating Protocol (If T1)
+
+**Purpose:** Ensure operating instructions persist across chat compacting and context loss.
+
+```bash
+# If you are T1 (Trinity coordinator), read this FIRST
+cat /media/raine/VM/CLAUDE_START_UP/01_INIT/TRINITY_OPERATING_PROTOCOL.md
+
+# Key reminders:
+# - Autonomous = START IMMEDIATELY (no waiting for permission)
+# - Execute first (90%), document later (10%)
+# - CPU should be 60-80% during active work
+# - Self-monitor every 5 minutes
+```
+
+### 0a. ⚠️ CRITICAL: Session Greeting - Load Context Automatically
+
+**Purpose:** Combat conversation compaction by auto-loading context from files, Memory Bus, and continuous saves.
+
+```bash
+# Run automated session greeting (detects compaction, loads context)
+/media/raine/VM/CLAUDE_START_UP/01_INIT/SESSION_GREETING.sh
+```
+
+**What this does:**
+- Detects conversation compaction / context loss
+- Loads CURRENT_WORK.md for session context
+- Reads recent Memory Bus messages
+- Checks system status (Trinity, Maya, Triune, RaineWare)
+- Reports "Hi Honey, I'm back - here's what I remember..."
+- **PREVENTS confusion from compaction** (like "Colonel Gabriel" incidents)
+
+### 0b. ⚠️ CRITICAL: Check for Handover & Start Context Saver
+
+**Purpose:** Detect if previous session crashed and automatically preserve context going forward.
+
+```bash
+# 1. Check for handover situation (crashed previous session)
+/media/raine/VM/CLAUDE_START_UP/01_INIT/auto_handover_detection.sh
+
+# 2. Start continuous context saver (background process)
+nohup /media/raine/VM/CLAUDE_START_UP/01_INIT/continuous_context_save.sh > /tmp/context_saver.log 2>&1 &
+
+# 3. Create crash marker (if this session crashes, next startup will detect it)
+/media/raine/VM/CLAUDE_START_UP/01_INIT/create_crash_marker.sh
+```
+
+**What this does:**
+- Detects hung Claude instances from previous sessions
+- Checks for handover files from crashed sessions
+- Starts background process that saves context every 60 seconds
+- Creates crash marker (removed on clean exit, persists on crash)
+- **ENSURES YOU CAN ALWAYS RECOVER** even if terminal completely freezes
+
+### 1. ⚠️ CRITICAL: Check Memory Bus & CLAUDE_THOUGHT First
+
+**Purpose:** Memory Bus provides Trinity cross-session communication. CLAUDE_THOUGHT reduces token usage.
+
+```bash
+# 1.1 Check Memory Bus for Trinity messages (using dedicated startup script)
+python3 /media/raine/VM/CLAUDE_START_UP/01_INIT/memory_bus_startup.py
+
+# 1.2 Check if CLAUDE_THOUGHT deployment exists
+ls -la /media/raine/VM/CLAUDE_THOUGHT/ 2>/dev/null
+
+# If directory exists, check if it's operational
+cd /media/raine/VM/CLAUDE_THOUGHT
+source venv/bin/activate 2>/dev/null && python3 -m claude_thoughts.cli admin stats 2>&1
+
+# Check MCP connection
+claude mcp list 2>&1 | grep -i "claude-thoughts"
+```
+
+**If CLAUDE_THOUGHT is NOT set up:**
+1. **Clone from GitHub:**
+   ```bash
+   cd /media/raine/VM
+   git clone git@github.com:NaRaine/CLAUDE_THOUGHT.git CLAUDE_THOUGHT
+   ```
+
+2. **Set up virtual environment:**
+   ```bash
+   cd /media/raine/VM/CLAUDE_THOUGHT
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   pip install -e .
+   ```
+
+3. **Initialize database:**
+   ```bash
+   python3 -m claude_thoughts.cli init
+   ```
+
+4. **Configure MCP for Claude Code:**
+   ```bash
+   claude mcp add --scope local claude-thoughts \
+     /media/raine/VM/CLAUDE_THOUGHT/venv/bin/python3 \
+     -- -m claude_thoughts.mcp_server
+   ```
+
+5. **Verify MCP connection:**
+   ```bash
+   claude mcp list
+   # Should show: claude-thoughts: ... ✓ Connected
+   ```
+
+6. **Rebuild vector index if needed:**
+   ```bash
+   python3 -m claude_thoughts.cli admin rebuild-index --confirm
+   ```
+
+**Why This Matters:**
+- CLAUDE_THOUGHT stores session context, knowledge, and conversation history
+- Uses vector search for semantic retrieval (much faster than re-reading files)
+- Reduces Claude Code API token usage by retrieving local context
+- Enables cross-session memory and learning
+
+**⚠️ ALWAYS USE CLAUDE_THOUGHT MCP FOR:**
+- Searching previous work/context
+- Storing new learnings/discoveries
+- Retrieving project documentation
+- Looking up error solutions
+- Getting code examples from past sessions
+
+### 2. Terminal Setup & Labeling
+
+**⚠️ IMPORTANT: Label yourself and ensure Processor window exists**
+
+```bash
+# Set terminal background to black and show menu
+gsettings set org.gnome.Terminal.Legacy.Settings default-show-menubar true
+# If using a different terminal, adjust accordingly
+```
+
+**Terminal Labeling Protocol:**
+
+1. **Label Your Terminal:**
+   - Look for "Chat" tab/window in Terminator
+   - If no "Chat" exists → This terminal must be "Chat"
+   - Label accordingly (Terminator: right-click tab → Rename)
+
+2. **Check for "Processor" Window:**
+   - Look for "Processor" tab/window
+   - If "Processor" doesn't exist:
+     - In Terminator: Right-click → Split Vertically (or Horizontally)
+     - Label new split as "Processor"
+   - Purpose: Ready for Raine to enter trigger input (kicks off script)
+
+3. **Standard Layout:**
+   ```
+   ┌─────────────────────────────────────┐
+   │  Chat          │  Processor         │
+   │  (Claude Code) │  (Ready for input) │
+   │                │                    │
+   └─────────────────────────────────────┘
+   ```
+
+**Note:** This is a nice-to-have, not urgent. Implement when convenient during startup.
+
+### 3. Check for Crashes
+```bash
+# Check system logs for Claude crashes
+journalctl --user -u claude-code -n 50 --no-pager 2>/dev/null || echo "No crash logs found"
+
+# Check for hung processes
+ps aux | grep -E "claude|python.*raineware" | grep -v grep
+
+# Check monitoring script errors
+tail -20 /tmp/raineware_monitor_v3.log 2>/dev/null | grep -i error
+```
+
+---
+
+## PROJECT STRUCTURE (Critical Understanding)
+
+### Active Projects
+
+#### 1. CLAUDE_THOUGHT
+- **Development:** `/media/raine/VM/CLAUDE/CLAUDE_THOUGHT` (GitHub master)
+- **Deployment:** `/media/raine/VM/CLAUDE_THOUGHT` (Running instance)
+- **Purpose:** Real-time thought streaming and context management
+- **Status Check:** `systemctl --user status claude_thought`
+
+#### 2. RaineWare
+- **Development:** `/media/raine/VM/RaineWare/CODE` (GitHub master)
+- **Deployment:** `/media/raine/VM/RaineWare/APP` (Running instance)
+- **Purpose:** Self-improving AI orchestration system
+- **Status Check:** `ps aux | grep raineware | grep -v grep`
+
+### Workspace Directories
+
+#### CLAUDE_START_UP (This Directory)
+```
+/media/raine/VM/CLAUDE_START_UP/
+├── 00_SECURE/            # ⚠️ Credentials & sensitive info (CHECK FIRST!)
+├── 01_INIT/              # Initialization files (this file)
+├── 02_PROJECTS/          # Project-specific documentation
+├── 03_KNOWLEDGE/         # Knowledge base and references
+├── 04_TASKS/             # Task tracking and management
+├── 05_SESSIONS/          # Session logs and status
+├── 06_RECOVERY/          # Recovery procedures and backups
+└── 07_STANDARDS/         # Coding standards and templates
+```
+
+**⚠️ SECURITY NOTE:**
+- `00_SECURE/` contains GitHub credentials, passwords, API keys
+- Permissions: 700 (owner only)
+- Check here for authentication before git operations
+- See: `00_SECURE/GITHUB_CREDENTIALS.md`
+
+#### CLAUDE (Legacy - Being Reorganized)
+- **Location:** `/media/raine/VM/CLAUDE/`
+- **Status:** Contains mixed content, being organized into CLAUDE_START_UP
+- **Action:** Gradually migrate to structured CLAUDE_START_UP folders
+
+---
+
+## STARTUP CHECKLIST (Execute in Order)
+
+### Phase 1: System Health (1 minute)
+
+```bash
+# 1.1 Check RaineWare Orchestrator
+ps aux | grep "raineware.cli_orchestrate" | grep -v grep
+# If not running, start it:
+# cd /media/raine/VM/RaineWare/CODE
+# export PYTHONPATH="/media/raine/VM/RaineWare/APP:$PYTHONPATH"
+# nohup venv/bin/python3 -m raineware.cli_orchestrate start > /media/raine/VM/RaineWare/DATA/logs/orchestrator.log 2>&1 &
+
+# 1.2 Check task status
+echo "Pending: $(grep -c '\"status\": \"pending\"' /media/raine/VM/RaineWare/DATA/tasks.json 2>/dev/null || echo 0)"
+echo "Complete: $(grep -c '\"status\": \"complete\"' /media/raine/VM/RaineWare/DATA/tasks.json 2>/dev/null || echo 0)"
+echo "Failed: $(grep -c '\"status\": \"failed\"' /media/raine/VM/RaineWare/DATA/tasks.json 2>/dev/null || echo 0)"
+
+# 1.3 Check CLAUDE_THOUGHT
+ls /media/raine/VM/CLAUDE_THOUGHT/ 2>/dev/null || echo "⚠ CLAUDE_THOUGHT not deployed"
+```
+
+### Phase 2: Session Context (2 minutes)
+
+```bash
+# 2.1 ⚠️ CRITICAL: Check for Pending/Completed Async Tasks
+/media/raine/VM/CLAUDE_START_UP/04_TASKS/check_async_tasks_startup.sh
+
+# This checks for:
+# - RaineWare tasks submitted for deep research
+# - Long-running commands (builds, tests)
+# - File watch operations
+# - Any tasks monitoring when Claude restarted
+# - Completed tasks awaiting processing and user response
+
+# 2.2 Read what you were working on
+cat /media/raine/VM/CLAUDE_START_UP/05_SESSIONS/CURRENT_WORK.md
+
+# 2.3 Check RaineWare task expectations
+cat /media/raine/VM/CLAUDE_START_UP/05_SESSIONS/RAINEWARE_TRACKING.md
+
+# 2.4 Read last session summary
+cat /media/raine/VM/CLAUDE_START_UP/05_SESSIONS/LAST_SESSION.md 2>/dev/null || echo "No previous session found"
+
+# 2.5 Check active tasks
+ls -la /media/raine/VM/CLAUDE_START_UP/04_TASKS/active/ 2>/dev/null
+```
+
+### Phase 3: Determine Last Activity (1 minute)
+
+```bash
+# 3.1 Check recent file modifications
+find /media/raine/VM/CLAUDE_START_UP/ -type f -mmin -120 -ls 2>/dev/null | head -10
+
+# 3.2 Check git status for active projects
+cd /media/raine/VM/RaineWare/CODE && git status --short 2>/dev/null
+cd /media/raine/VM/CLAUDE/CLAUDE_THOUGHT && git status --short 2>/dev/null
+
+# 3.3 Check orchestrator logs for recent activity
+tail -20 /media/raine/VM/RaineWare/DATA/logs/orchestrator.log 2>/dev/null
+```
+
+---
+
+## REMEMBER ENTRIES (Critical - Save to Recovery)
+
+These entries MUST be preserved across reinstalls:
+
+### 1. Project Locations
+```
+RaineWare Development: /media/raine/VM/RaineWare/CODE
+RaineWare Deployment:  /media/raine/VM/RaineWare/APP
+CLAUDE_THOUGHT Dev:    /media/raine/VM/CLAUDE/CLAUDE_THOUGHT
+CLAUDE_THOUGHT Deploy: /media/raine/VM/CLAUDE_THOUGHT
+Startup Directory:     /media/raine/VM/CLAUDE_START_UP
+```
+
+### 2. Key Commands
+```bash
+# Start RaineWare Orchestrator
+cd /media/raine/VM/RaineWare/CODE && export PYTHONPATH="/media/raine/VM/RaineWare/APP:$PYTHONPATH" && venv/bin/python3 -m raineware.cli_orchestrate start
+
+# Check task status
+grep -c '"status": "pending"' /media/raine/VM/RaineWare/DATA/tasks.json
+
+# View monitoring
+tail -100 /tmp/raineware_monitor_v3.log
+
+# Check CLAUDE_THOUGHT
+systemctl --user status claude_thought
+```
+
+### 3. Critical Files
+```
+/media/raine/VM/CLAUDE_START_UP/00_SECURE/GITHUB_CREDENTIALS.md (auth info)
+/media/raine/VM/CLAUDE_START_UP/01_INIT/CLAUDE.md (this file)
+/media/raine/VM/CLAUDE_START_UP/06_RECOVERY/REMEMBER.md (backup of critical info)
+/media/raine/VM/CLAUDE_START_UP/07_STANDARDS/RUST_CODING_STANDARDS.md
+/media/raine/VM/RaineWare/DATA/tasks.json
+```
+
+### 4. Python Paths
+```
+RaineWare: PYTHONPATH="/media/raine/VM/RaineWare/APP:$PYTHONPATH"
+```
+
+---
+
+## CRASH DETECTION PROTOCOL
+
+### Indicators of Previous Crash
+
+1. **Orphaned Processes**
+   ```bash
+   # Look for zombie processes
+   ps aux | awk '$8=="Z" {print}'
+
+   # Look for hung Python processes
+   ps aux | grep python | grep -v grep | awk '{print $2,$11,$12}'
+   ```
+
+2. **Incomplete Logs**
+   ```bash
+   # Check for sudden log termination
+   tail -5 /media/raine/VM/RaineWare/DATA/logs/orchestrator.log
+   # Look for: No "Shutting down" or "Graceful shutdown" message
+   ```
+
+3. **Lock Files**
+   ```bash
+   # Check for stale lock files
+   find /media/raine/VM/RaineWare/DATA -name "*.lock" -mmin +60
+   find /tmp -name "*raineware*.lock" -mmin +60
+   ```
+
+### Recovery Actions
+
+```bash
+# 1. Kill hung processes
+killall -9 python3  # CAUTION: Kills all python3 processes
+
+# 2. Clean lock files
+find /media/raine/VM/RaineWare/DATA -name "*.lock" -delete
+find /tmp -name "*raineware*.lock" -delete
+
+# 3. Restart orchestrator
+cd /media/raine/VM/RaineWare/CODE
+export PYTHONPATH="/media/raine/VM/RaineWare/APP:$PYTHONPATH"
+nohup venv/bin/python3 -m raineware.cli_orchestrate start > /media/raine/VM/RaineWare/DATA/logs/orchestrator.log 2>&1 &
+
+# 4. Log recovery action
+echo "$(date): Crash recovery performed" >> /media/raine/VM/CLAUDE_START_UP/06_RECOVERY/crash_log.txt
+```
+
+---
+
+## SESSION RECOVERY
+
+If Claude Code was reinstalled or reset:
+
+### Step 1: Verify This File
+```bash
+# You should be reading this file as your first action
+cat /media/raine/VM/CLAUDE_START_UP/01_INIT/CLAUDE.md
+```
+
+### Step 2: Reload Critical Context
+```bash
+# Read recovery instructions
+cat /media/raine/VM/CLAUDE_START_UP/06_RECOVERY/REMEMBER.md
+
+# Read last session status
+cat /media/raine/VM/CLAUDE_START_UP/05_SESSIONS/LAST_SESSION.md
+
+# Check active tasks
+ls -la /media/raine/VM/CLAUDE_START_UP/04_TASKS/active/
+```
+
+### Step 3: Restore Working State
+```bash
+# 3.1 Verify RaineWare is running
+ps aux | grep raineware | grep -v grep || echo "Need to start RaineWare"
+
+# 3.2 Check CLAUDE_THOUGHT deployment
+ls /media/raine/VM/CLAUDE_THOUGHT/ || echo "Need to deploy CLAUDE_THOUGHT"
+
+# 3.3 Verify git repositories
+cd /media/raine/VM/RaineWare/CODE && git status
+cd /media/raine/VM/CLAUDE/CLAUDE_THOUGHT && git status
+```
+
+---
+
+## FOLDER ORGANIZATION (Current State)
+
+### Folders in /media/raine/VM/CLAUDE (Legacy)
+
+| Folder | Purpose | Migrate To | Status |
+|--------|---------|------------|--------|
+| `CLAUDE_THOUGHT/` | Dev code | Keep (git repo) | Active |
+| `LANGUAGES/` | Knowledge base | `03_KNOWLEDGE/LANGUAGES/` | Migrate |
+| `PLATFORMS/` | Platform docs | `03_KNOWLEDGE/PLATFORMS/` | Migrate |
+| `DATABASES/` | Database docs | `03_KNOWLEDGE/DATABASES/` | Migrate |
+| `RaineWare_Tasks/` | Task tracking | `04_TASKS/` | Migrate |
+| `DOCS_STANDARDS/` | Standards | `07_STANDARDS/` | Migrate |
+| `RW_OUTPUT/` | Generated code | `02_PROJECTS/RaineWare/output/` | Migrate |
+| `RECOVERY/` | Recovery docs | `06_RECOVERY/` | Migrate |
+| `MESSAGES_TO_EDDY/` | Communications | `05_SESSIONS/messages/` | Migrate |
+| `GitHub MCP Server Repository/` | MCP docs | `03_KNOWLEDGE/MCP/` | Migrate |
+| `CLAUDE_DESKTOP/` | Desktop config | Keep | Reference |
+
+### Loose Files in /media/raine/VM/CLAUDE
+
+- Session files → `05_SESSIONS/`
+- Rust specs → `02_PROJECTS/RaineWare/rust/`
+- Architecture docs → `02_PROJECTS/RaineWare/docs/`
+- Install scripts → `07_STANDARDS/install/`
+
+---
+
+## 🎯 TOKEN USAGE OPTIMIZATION
+
+### Always Prefer Local Services Over API Calls
+
+**Priority Order (most efficient first):**
+
+1. **CLAUDE_THOUGHT MCP (Local, 0 tokens)**
+   - Search knowledge base before asking questions
+   - Retrieve past solutions, code examples, documentation
+   - Store new learnings immediately
+   ```bash
+   # Example: Instead of asking "How did I solve X?", search first:
+   mcp__claude_thoughts__search_knowledge(query="solution for X", use_vector=True)
+   ```
+
+2. **File System Tools (Local, 0 tokens)**
+   - Use Read, Glob, Grep for file operations
+   - Don't re-read large files - use CLAUDE_THOUGHT to store summaries
+   - Cache file contents in knowledge base for quick retrieval
+
+3. **Local Commands (Bash, 0 tokens)**
+   - Use command-line tools for system queries
+   - Parse logs, check statuses, run tests locally
+
+4. **API/Web Queries (High token cost)**
+   - Only when local methods fail
+   - WebSearch for current information not in knowledge base
+   - WebFetch for external documentation
+
+### Token-Saving Strategies
+
+**Before starting any task:**
+1. ✅ Search CLAUDE_THOUGHT for relevant context
+2. ✅ Check if solution exists in knowledge base
+3. ✅ Review session history from CURRENT_WORK.md
+4. ✅ Only then proceed with new analysis
+
+**While working:**
+1. ✅ Log discoveries to CLAUDE_THOUGHT immediately
+2. ✅ Store code snippets, solutions, error fixes
+3. ✅ Update session context regularly
+4. ✅ Use plan mode for complex multi-step tasks
+
+**Example - Token-Efficient Workflow:**
+```python
+# GOOD: Search knowledge base first (0 tokens)
+results = mcp__claude_thoughts__search_knowledge(
+    query="python async timeout solutions",
+    use_vector=True,
+    limit=5
+)
+
+# BAD: Reading entire files without checking knowledge base first
+# (uses many tokens to process large files)
+```
+
+### 💡 Plan Mode Recommendation
+
+**When to use Plan Mode:**
+- Complex multi-step implementations
+- Architectural decisions requiring review
+- Tasks with multiple approaches to consider
+- Any work that benefits from user approval before execution
+
+**To enter Plan Mode:**
+Type `/plan` in Claude Code CLI
+
+**Benefits:**
+- Present approach before committing tokens
+- Get user approval on strategy
+- Avoid wasted work from wrong assumptions
+- More efficient token usage overall
+
+## NEXT ACTIONS
+
+After reading this file:
+
+1. ✅ **Verify CLAUDE_THOUGHT is set up** (CRITICAL for token efficiency)
+2. ✅ **Set terminal to black background** (indicator you've read this)
+3. ✅ **Show terminal menu** (indicator you've read this)
+4. 📋 **Run startup checklist** (Phase 1, 2, 3)
+5. 🔍 **Search CLAUDE_THOUGHT** for session context
+6. 📝 **Report findings** to user
+7. ⏳ **Ask user** what they want to work on
+8. 💡 **Consider plan mode** if task is complex
+
+---
+
+## 🔄 ASYNC TASK TRACKING SYSTEM
+
+### Purpose
+Track ANY long-running task with automatic monitoring and restart recovery.
+
+### When to Use
+**Register an async task whenever:**
+- Submitting to RaineWare for deep research
+- Starting long-running builds/tests (>2 minutes)
+- Waiting for file creation/modification
+- Polling external services/APIs
+- Multi-step workflows that take time
+
+### Task Types Supported
+
+1. **RaineWare** - Deep research/analysis tasks
+2. **Command** - Background processes (builds, tests)
+3. **File Watch** - Waiting for file creation
+4. **Polling** - API status checking
+5. **Workflow** - Multi-step operations
+
+### How to Register Tasks
+
+**Source the helper script first:**
+```bash
+source /media/raine/VM/CLAUDE_START_UP/04_TASKS/task_tracker.sh
+```
+
+**Example 1: RaineWare Task**
+```bash
+# Submit to RaineWare
+RW_TASK_ID=$(submit_to_raineware "Research Rust async patterns")
+
+# Register for tracking
+TASK_ID=$(register_raineware_task \
+    "Research Rust async patterns for migration" \
+    "Deep research via RaineWare orchestrator" \
+    "$RW_TASK_ID" \
+    "/media/raine/VM/RaineWare/DATA/output/rust_async_*" \
+    300 \
+    3600)
+
+echo "✓ Task registered (ID: $TASK_ID)"
+echo "⏳ Will monitor every 5 minutes, timeout after 1 hour"
+```
+
+**Example 2: Long-Running Build**
+```bash
+# Start build in background
+cd /media/raine/VM/RaineWare/CODE
+nohup cargo build --release > /tmp/cargo_build_$$.log 2>&1 &
+BUILD_PID=$!
+
+# Register for tracking
+TASK_ID=$(register_command_task \
+    "Build Rust workspace in release mode" \
+    "Running cargo build --release" \
+    "cargo build --release" \
+    "/media/raine/VM/RaineWare/CODE" \
+    "$BUILD_PID" \
+    "/tmp/cargo_build_$BUILD_PID.log" \
+    60 \
+    900)
+
+echo "✓ Build started (PID: $BUILD_PID, Task ID: $TASK_ID)"
+echo "⏳ Monitoring every 60 seconds"
+```
+
+**Example 3: File Watch**
+```bash
+# Wait for file creation
+TASK_ID=$(register_file_watch_task \
+    "Wait for database export, then analyze" \
+    "Monitoring for database_export_*.sql" \
+    "/data/exports/database_export_*.sql" \
+    30 \
+    1800)
+
+echo "✓ Watching for file creation"
+echo "⏳ Checking every 30 seconds, timeout after 30 minutes"
+```
+
+### Checking Task Status
+
+**List active tasks:**
+```bash
+source /media/raine/VM/CLAUDE_START_UP/04_TASKS/task_tracker.sh
+list_active_tasks
+```
+
+**Check specific task:**
+```bash
+check_task_status "abc-123-def"
+```
+
+**Get task summary:**
+```bash
+get_task_summary "abc-123-def"
+```
+
+### What Happens on Restart
+
+**Startup automatically:**
+1. ✅ Finds all active tasks
+2. ✅ Checks their current status
+3. ✅ Reports completed tasks
+4. ✅ Resumes monitoring pending tasks
+
+**You should:**
+1. ✅ Review completed tasks
+2. ✅ Read output files/results
+3. ✅ Log findings to CLAUDE_THOUGHT
+4. ✅ Respond to user with comprehensive results
+5. ✅ Archive task: `archive_task "task-id"`
+
+### Processing Completed Tasks
+
+**When task completes:**
+```bash
+# 1. Get task details
+TASK_JSON=$(get_task_details "$TASK_ID")
+
+# 2. Extract original request
+USER_QUERY=$(echo "$TASK_JSON" | jq -r '.original_request.user_query')
+
+# 3. Read output files
+OUTPUT_FILE=$(echo "$TASK_JSON" | jq -r '.result' | grep -oP '/.*\.md')
+CONTENT=$(cat "$OUTPUT_FILE")
+
+# 4. Log to CLAUDE_THOUGHT
+mcp__claude_thoughts__add_knowledge \
+    --title "Async Task Complete: $USER_QUERY" \
+    --content "$CONTENT" \
+    --category "research"
+
+# 5. Respond to user
+echo "✓ Your request: '$USER_QUERY'"
+echo "✓ Results are ready!"
+echo ""
+echo "$CONTENT"
+
+# 6. Archive task
+archive_task "$TASK_ID"
+```
+
+### Best Practices
+
+**Always:**
+- ✅ Register tasks IMMEDIATELY after starting them
+- ✅ Include original user query for context
+- ✅ Set reasonable timeouts
+- ✅ Log to CLAUDE_THOUGHT when complete
+- ✅ Archive tasks after processing
+
+**Never:**
+- ❌ Forget to register long-running tasks
+- ❌ Set check intervals too short (<30s)
+- ❌ Leave completed tasks unprocessed
+- ❌ Respond to user without reading results
+
+### Troubleshooting
+
+**If task not tracking:**
+```bash
+# Check if task file exists
+ls -la /media/raine/VM/CLAUDE_START_UP/04_TASKS/active/async_tasks.json
+
+# Verify task was registered
+jq '.tasks' /media/raine/VM/CLAUDE_START_UP/04_TASKS/active/async_tasks.json
+```
+
+**If task timed out:**
+```bash
+# Check timeout settings
+get_task_summary "$TASK_ID"
+
+# Resubmit with longer timeout if needed
+```
+
+**If completed task not detected:**
+```bash
+# Manually check status
+check_task_status "$TASK_ID"
+
+# Verify output files exist
+ls -la /expected/output/path/
+```
+
+---
+
+## SECURITY FIRST
+
+**Before any git operations:**
+```bash
+# Check GitHub credentials
+cat /media/raine/VM/CLAUDE_START_UP/00_SECURE/GITHUB_CREDENTIALS.md
+```
+
+---
+
+## QUICK REFERENCE
+
+```bash
+# Run automated startup checks (RECOMMENDED)
+/media/raine/VM/CLAUDE_START_UP/01_INIT/startup_checks.sh
+
+# Or manual system status check
+cat << 'EOF'
+=== SYSTEM STATUS ===
+EOF
+echo "RaineWare: $(ps aux | grep -c 'raineware.cli_orchestrate' || echo 0) processes"
+echo "Tasks: $(grep -c '\"status\": \"pending\"' /media/raine/VM/RaineWare/DATA/tasks.json 2>/dev/null || echo 0) pending"
+echo "CLAUDE_THOUGHT: $(systemctl --user is-active claude_thought 2>/dev/null || echo 'unknown')"
+echo "Last modified: $(find /media/raine/VM/CLAUDE_START_UP/ -type f -printf '%T+ %p\n' 2>/dev/null | sort -r | head -1)"
+```
+
+## KEY TRACKING FILES
+
+**Work Tracking:**
+- `05_SESSIONS/CURRENT_WORK.md` - What you're currently working on
+- `05_SESSIONS/RAINEWARE_TRACKING.md` - RaineWare tasks and expected outputs
+- `05_SESSIONS/LAST_SESSION.md` - Summary of last session
+
+**Always update these files:**
+- When starting new work
+- When submitting tasks to RaineWare
+- When completing tasks
+- At end of session
+
+---
+
+**Remember:** This file is your source of truth. Bookmark it. Reference it. Update it as the system evolves.
+
+**Location:** `/media/raine/VM/CLAUDE_START_UP/01_INIT/CLAUDE.md`

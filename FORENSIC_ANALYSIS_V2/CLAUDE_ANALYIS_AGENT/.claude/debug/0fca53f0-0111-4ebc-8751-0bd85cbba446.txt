@@ -1,0 +1,662 @@
+[DEBUG] Watching for changes in setting files /home/raine/.claude/settings.json...
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] >>>>> getSkillsIfEnabled() CALLED <<<<<
+[DEBUG] ENABLE_SKILLS value: true, type: boolean
+[DEBUG] ENABLE_SKILLS check passed, loading skills...
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/raine/.claude/skills, project=/home/raine/Documents/Claude/Claude_Code/Unrestricted/.claude/skills
+[DEBUG] >>>>> getPluginSkills CALLED <<<<<
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/raine/.bashrc
+[DEBUG] Snapshots directory: /home/raine/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/raine/.claude/shell-snapshots/snapshot-bash-1762106940081-1bhwd7.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/0fca53f0-0111-4ebc-8751-0bd85cbba446-agent-0fca53f0-0111-4ebc-8751-0bd85cbba446.json.tmp.2731441.1762106940092
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/raine/.claude/todos/0fca53f0-0111-4ebc-8751-0bd85cbba446-agent-0fca53f0-0111-4ebc-8751-0bd85cbba446.json.tmp.2731441.1762106940092 to /home/raine/.claude/todos/0fca53f0-0111-4ebc-8751-0bd85cbba446-agent-0fca53f0-0111-4ebc-8751-0bd85cbba446.json
+[DEBUG] File /home/raine/.claude/todos/0fca53f0-0111-4ebc-8751-0bd85cbba446-agent-0fca53f0-0111-4ebc-8751-0bd85cbba446.json written atomically
+[DEBUG] getPluginSkills: Processing 0 enabled plugins
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Shell snapshot created successfully (3209 bytes)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2731441.1762106940253
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 90139 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2731441.1762106940253 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2731441.1762106940261
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 90139 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2731441.1762106940261 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2731441.1762106941123
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 90139 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2731441.1762106941123 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2731441.1762106941222
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 90034 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2731441.1762106941222 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2731441.1762106941230
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 90034 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2731441.1762106941230 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2731441.1762106941238
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 90513 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2731441.1762106941238 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] performStartupChecks called
+[DEBUG] Trust not accepted for current directory - skipping plugin installations
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2731441.1762106941671
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 90618 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2731441.1762106941671 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2731441.1762106944771
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 90618 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2731441.1762106944771 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] Metadata string for init:
+[DEBUG] <command-message>init is analyzing your codebase…</command-message>
+<command-name>/init</command-name>
+[DEBUG] command-message tags in metadata: 1
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] processPromptSlashCommand creating 3 messages for init
+[DEBUG] Message 1: <command-message>init is analyzing your codebase…</command-message>
+<command-name>/init</command-name>
+[DEBUG] Message 2 [META]: [{"type":"text","text":"Please analyze this codebase and create a CLAUDE.md file, which will be given to future instances of Claude Code to operate in this repository.\n\nWhat to add:\n1. Commands tha
+[DEBUG] Message 3: [ATTACHMENT]
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Added snapshot for 7fba51e7-8816-47ff-af54-71f4792e49b5, tracking 0 files
+[DEBUG] Rendering user message with 1 content blocks
+[DEBUG] Block 0: <command-message>init is analyzing your codebase…</command-message>
+<command-name>/init</command-nam...
+[DEBUG] UserCommandMessage rendering: "init is analyzing your codebase…" (args: "none")
+[DEBUG] isSkillFormat: false, prefix: "/"
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2731441.1762106966257
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 90618 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2731441.1762106966257 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] No hook environment files found
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /home/raine/Documents/Claude/Claude_Code/Unrestricted/CLAUDE.md
+[DEBUG] Writing to temp file: /home/raine/Documents/Claude/Claude_Code/Unrestricted/CLAUDE.md.tmp.2731441.1762107021886
+[DEBUG] Temp file written successfully, size: 5176 bytes
+[DEBUG] Renaming /home/raine/Documents/Claude/Claude_Code/Unrestricted/CLAUDE.md.tmp.2731441.1762107021886 to /home/raine/Documents/Claude/Claude_Code/Unrestricted/CLAUDE.md
+[DEBUG] File /home/raine/Documents/Claude/Claude_Code/Unrestricted/CLAUDE.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2731441.1762107037935
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 90618 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2731441.1762107037935 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Making snapshot for message 24a23093-00a9-497d-9c47-4fc1b4b1bbf0
+[DEBUG] FileHistory: Added snapshot for 24a23093-00a9-497d-9c47-4fc1b4b1bbf0, tracking 1 files
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2731441.1762107038623
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 90663 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2731441.1762107038623 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /home/raine/.config/fish/config.fish
+[DEBUG] Writing to temp file: /home/raine/.config/fish/config.fish.tmp.2731441.1762107088057
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5231 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.config/fish/config.fish.tmp.2731441.1762107088057 to /home/raine/.config/fish/config.fish
+[DEBUG] File /home/raine/.config/fish/config.fish written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: fish
+    at ZH (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1175:4413)
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1175:4141
+    at Array.map (<anonymous>)
+    at MV (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1175:4132)
+    at yTB (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1798:6323)
+    at Fq (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:73:19414)
+    at dr (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:42814)
+    at b9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38355)
+    at Vc (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38283)
+    at wq (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38137)
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2731441.1762107116534
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 90763 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2731441.1762107116534 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2731441.1762107116539
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 90846 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2731441.1762107116539 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Making snapshot for message 3d36bd94-b024-4de8-90ff-b48dad2884a5
+[DEBUG] FileHistory: Added snapshot for 3d36bd94-b024-4de8-90ff-b48dad2884a5, tracking 2 files
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /home/raine/Documents/Claude/Claude_Code/Unrestricted/setup-claud-go.fish
+[DEBUG] Writing to temp file: /home/raine/Documents/Claude/Claude_Code/Unrestricted/setup-claud-go.fish.tmp.2731441.1762107167323
+[DEBUG] Preserving file permissions: 100711
+[DEBUG] Temp file written successfully, size: 6421 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/Documents/Claude/Claude_Code/Unrestricted/setup-claud-go.fish.tmp.2731441.1762107167323 to /home/raine/Documents/Claude/Claude_Code/Unrestricted/setup-claud-go.fish
+[DEBUG] File /home/raine/Documents/Claude/Claude_Code/Unrestricted/setup-claud-go.fish written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/Documents/Claude/Claude_Code/Unrestricted/CLAUDE.md.tmp.2731441.1762107181358
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 5750 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/Documents/Claude/Claude_Code/Unrestricted/CLAUDE.md.tmp.2731441.1762107181358 to /home/raine/Documents/Claude/Claude_Code/Unrestricted/CLAUDE.md
+[DEBUG] File /home/raine/Documents/Claude/Claude_Code/Unrestricted/CLAUDE.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /home/raine/Documents/Claude/Claude_Code/Unrestricted/BUGFIXES.md
+[DEBUG] Writing to temp file: /home/raine/Documents/Claude/Claude_Code/Unrestricted/BUGFIXES.md.tmp.2731441.1762107221603
+[DEBUG] Temp file written successfully, size: 4534 bytes
+[DEBUG] Renaming /home/raine/Documents/Claude/Claude_Code/Unrestricted/BUGFIXES.md.tmp.2731441.1762107221603 to /home/raine/Documents/Claude/Claude_Code/Unrestricted/BUGFIXES.md
+[DEBUG] File /home/raine/Documents/Claude/Claude_Code/Unrestricted/BUGFIXES.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /home/raine/Documents/Claude/Claude_Code/Unrestricted/README-CLAUD-GO.md
+[DEBUG] Writing to temp file: /home/raine/Documents/Claude/Claude_Code/Unrestricted/README-CLAUD-GO.md.tmp.2731441.1762107240066
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 10832 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/Documents/Claude/Claude_Code/Unrestricted/README-CLAUD-GO.md.tmp.2731441.1762107240066 to /home/raine/Documents/Claude/Claude_Code/Unrestricted/README-CLAUD-GO.md
+[DEBUG] File /home/raine/Documents/Claude/Claude_Code/Unrestricted/README-CLAUD-GO.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/Documents/Claude/Claude_Code/Unrestricted/README-CLAUD-GO.md.tmp.2731441.1762107257750
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 11434 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/Documents/Claude/Claude_Code/Unrestricted/README-CLAUD-GO.md.tmp.2731441.1762107257750 to /home/raine/Documents/Claude/Claude_Code/Unrestricted/README-CLAUD-GO.md
+[DEBUG] File /home/raine/Documents/Claude/Claude_Code/Unrestricted/README-CLAUD-GO.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /home/raine/Documents/Claude/Claude_Code/Unrestricted/INDEX.md
+[DEBUG] Writing to temp file: /home/raine/Documents/Claude/Claude_Code/Unrestricted/INDEX.md.tmp.2731441.1762107268025
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 9951 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/Documents/Claude/Claude_Code/Unrestricted/INDEX.md.tmp.2731441.1762107268025 to /home/raine/Documents/Claude/Claude_Code/Unrestricted/INDEX.md
+[DEBUG] File /home/raine/Documents/Claude/Claude_Code/Unrestricted/INDEX.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/Documents/Claude/Claude_Code/Unrestricted/INDEX.md.tmp.2731441.1762107281119
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 10055 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/Documents/Claude/Claude_Code/Unrestricted/INDEX.md.tmp.2731441.1762107281119 to /home/raine/Documents/Claude/Claude_Code/Unrestricted/INDEX.md
+[DEBUG] File /home/raine/Documents/Claude/Claude_Code/Unrestricted/INDEX.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/Documents/Claude/Claude_Code/Unrestricted/INDEX.md.tmp.2731441.1762107290257
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 10151 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/Documents/Claude/Claude_Code/Unrestricted/INDEX.md.tmp.2731441.1762107290257 to /home/raine/Documents/Claude/Claude_Code/Unrestricted/INDEX.md
+[DEBUG] File /home/raine/Documents/Claude/Claude_Code/Unrestricted/INDEX.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2731441.1762107314101
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 90965 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2731441.1762107314101 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)

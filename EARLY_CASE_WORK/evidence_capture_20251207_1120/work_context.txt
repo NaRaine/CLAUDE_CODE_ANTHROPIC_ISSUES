@@ -1,0 +1,127 @@
+=== WORK CONTEXT - SESSION ANALYSIS ===
+Session ID: 8e672677-8ed9-4aea-b697-f9248ccf00fc
+Capture Date: 2025-12-07T11:21:15+00:00
+
+=== CURRENT WORK SUMMARY ===
+# Current Work Tracking
+
+**Session Started:** 2025-12-03 08:30 UTC (Recovery session after crash)
+**Last Updated:** 2025-12-03 08:52 UTC
+**Status:** Active - Platform team tasked with complete rebuild
+
+---
+
+## 🚨 CRITICAL SITUATION: JavaScript Heap Exhaustion Crash Cycle
+
+**Issue:** Claude Code crashes every ~67 minutes due to Node.js heap exhaustion
+**Impact:** Cannot maintain long-running work sessions, lose all context on crash
+**Status:** ✅ Analyzed and assigned to platform team for permanent fix
+
+---
+
+## 🎯 Current Session Focus
+
+### ✅ COMPLETED: Full System Recovery
+
+**Directives from Raine:**
+1. ✅ Do full system recovery
+2. ✅ Check for issues and recover outstanding tasks/todos
+3. ✅ Verify talking to actual platform team (not spinups)
+4. ✅ Task them to fix using all ideas and deep research
+5. ✅ Document 67-minute crash cycle
+6. ✅ Read all logs and send to Trinity
+7. ✅ **CRITICAL REMINDER:** Do NOT push to GitHub (local git only)
+
+**Recovery Actions Completed:**
+- ✅ Read all initialization files (CLAUDE.md, REMEMBER.md, CURRENT_WORK.md)
+- ✅ Verified platform services running (Trinity PID 1399127, Maya PID 2657362, Harmony available)
+- ✅ Analyzed terminal crash output (JavaScript heap exhaustion)
+- ✅ Created comprehensive crash report (15 KB)
+- ✅ Sent crash analysis to Trinity via Memory Bus
+- ✅ Sent complete platform directive with all scope and requirements
+- ✅ Reminded Trinity: Local git only, NO GitHub push
+
+---
+
+## 📨 PLATFORM TEAM DIRECTIVE (Complete Scope)
+
+### Sent via Memory Bus:
+**File:** `/media/raine/VM/RaineWare/MEMORY_BUS/COMPLETE_PLATFORM_DIRECTIVE_1764751890.json`
+
+### Complete Scope (33 hours of work since yesterday):
+
+**All Issues to Fix:**
+1. Claude Code crash cycle (67 minutes) - CRITICAL
+2. Version control missing (Trinity not in git, 2708+237 uncommitted files)
+3. No state persistence (lose context on crash)
+4. No external monitoring (can't survive Claude crashes)
+5. No automated testing (bugs not caught)
+6. No fault-tolerant architecture
+7. Incomplete mathematical model (missing 60+ components)
+8. No database backup strategy
+9. Monitoring load too high (196% CPU)
+10. 24/7/365 requirements not met
+
+**Deep Analysis Required:**
+- 8 documents (bug reports, crash reports, inventories, models)
+- Multiple log files (monitoring, orchestrator, Memory Bus)
+- Terminal crash output (full analysis)
+- Pattern identification across all issues
+- Root cause determination (not just symptoms)
+
+**Permanent Fixes Needed:**
+- External monitoring service (Python/Rust, survives Claude crashes)
+- State persistence system (database-backed, zero context loss)
+- Automated version control (local git only, auto-commit on milestones)
+- Automated testing framework (unit, integration, regression)
+- Automated backup system (databases, code, state)
+- Complete fault-tolerant architecture
+- Full platform automation (zero manual intervention)
+
+**Outstanding Work to Complete:**
+- Orchestrator monitoring optimization
+- System component inventory (needs git commit)
+- Mathematical model expansion (60+ components)
+- 24/7/365 architecture implementation
+- All work blocked by crashes
+
+**Collaboration with Claude:**
+- Test development (Claude writes, platform runs)
+- Documentation (Claude documents, platform verifies)
+- Code review (Claude proposes, platform validates)
+- Architecture design (collaborative sessions)
+- Bug fixing (Claude identifies, platform fixes)
+
+---
+
+## 🔧 PERMANENT FIXES DESIGNED
+
+### Priority 1 (Critical):
+
+**1. Claude Code Crash Cycle Fix:**
+- External monitoring process (not Node.js)
+- State persistence every 5 minutes
+- Preemptive restart before crash threshold
+- Memory profiling and leak detection
+
+=== RECENT SESSION FILES ===
+total 2.7M
+-rw-rw-r-- 1 raine grpDrives 8.5K Dec  6 00:57 IP_CHANGE_FORENSIC_ANALYSIS_2025-12-06.md
+-rw-rw-r-- 1 raine grpDrives  17K Dec  5 21:22 CONTINUOUS_CONTEXT.txt
+-rw-rw-r-- 1 raine grpDrives 7.8K Dec  5 18:33 SYSTEM_AUDIT_2025-12-05_1831.md
+-rw-rw-r-- 1 raine grpDrives  12K Dec  5 17:26 CRASH_INCIDENT_2025-12-05.md
+-rw-rw-r-- 1 raine grpDrives  42K Dec  5 14:34 WIZARD_ZARDOZ_DEEP_ANALYSIS_2025-12-05.md
+-rw-rw-r-- 1 raine grpDrives 1.6K Dec  5 03:42 TODO_STATE.json
+-rw-rw-r-- 1 raine grpDrives 2.0K Dec  5 03:42 SESSION_LOG.json
+-rw-rw-r-- 1 raine grpDrives 3.1K Dec  5 03:29 LIVE_CONTEXT.json
+-rw-rw-r-- 1 raine grpDrives  11K Dec  3 08:54 CURRENT_WORK.md
+-rw-rw-r-- 1 raine grpDrives  17K Dec  2 15:01 COGNITIVE_ZONING_LIGHT_SPEED_INTEGRATION_2025-12-02.md
+-rw-rw-r-- 1 raine grpDrives  22K Dec  2 14:35 UNIVERSAL_PERIODIC_TABLE_OF_PATTERNS_2025-12-02.md
+-rw-rw-r-- 1 raine grpDrives  20K Dec  2 14:20 ANGLE_22_6_DEGREES_SIGNIFICANCE_RESEARCH_2025-12-02.md
+-rw-rw-r-- 1 raine grpDrives  18K Dec  2 11:14 NVIDIA_KILL_ZONE_EXECUTIVE_SUMMARY_2025-12-02.md
+-rw-rw-r-- 1 raine grpDrives 114K Dec  2 10:28 TECH_INDUSTRY_CANNIBALISM_NVIDIA_SURVIVAL_2025-12-02.md
+-rw-rw-r-- 1 raine grpDrives 119K Dec  2 10:11 CHINA_SEMICONDUCTOR_INDEPENDENCE_GEOPOLITICAL_IMPACT_2025-12-02.md
+-rw-rw-r-- 1 raine grpDrives  35K Nov 29 18:08 3D_TENSOR_THEORETICAL_FRAMEWORK_2025-11-29.md
+-rw-rw-r-- 1 raine grpDrives  19K Nov 29 18:05 3D_TENSOR_EXECUTIVE_SUMMARY_2025-11-29.md
+-rw-rw-r-- 1 raine grpDrives  63K Nov 29 18:02 3D_TENSOR_KNOWLEDGE_EXTRACTION_RESEARCH_2025-11-29.md
+-rw-rw-r-- 1 raine grpDrives  50K Nov 29 04:58 TESLA_CLEAN_ENERGY_RESEARCH_2025-11-29.md

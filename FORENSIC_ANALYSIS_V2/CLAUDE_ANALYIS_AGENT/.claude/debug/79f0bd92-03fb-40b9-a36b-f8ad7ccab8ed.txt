@@ -1,0 +1,2711 @@
+[DEBUG] Watching for changes in setting files /home/raine/.claude/settings.json...
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] >>>>> getSkillsIfEnabled() CALLED <<<<<
+[DEBUG] ENABLE_SKILLS value: true, type: boolean
+[DEBUG] ENABLE_SKILLS check passed, loading skills...
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/raine/.claude/skills, project=/media/raine/VM/CLAUDE_START_UP/.claude/skills
+[DEBUG] >>>>> getPluginSkills CALLED <<<<<
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/raine/.bashrc
+[DEBUG] Snapshots directory: /home/raine/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/raine/.claude/shell-snapshots/snapshot-bash-1764001854144-0a9ez4.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764001854152
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764001854152 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764001854167
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218176 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764001854167 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] getPluginSkills: Processing 0 enabled plugins
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loaded 4 skills total (managed: 0, user: 4, project: 0)
+[DEBUG] getSkillsIfEnabled returning: 4 skill dir commands, 0 plugin skills
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Shell snapshot created successfully (3274 bytes)
+[DEBUG] Summarizing all 2 messages (~10115 tokens)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764001854340
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218176 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764001854340 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764001854346
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218176 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764001854346 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764001854436
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218176 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764001854436 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Stream started - received first chunk
+[DEBUG] MCP server "claude-thoughts": Starting connection with timeout of 30000ms
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764001855672
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218176 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764001855672 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764001855770
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218071 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764001855770 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764001855777
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218071 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764001855777 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] performStartupChecks called
+[DEBUG] Trust not accepted for current directory - skipping plugin installations
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764001856143
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218176 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764001856143 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Stream started - received first chunk
+[DEBUG] Summarizing last 5 of 370 messages (~149985 tokens)
+[ERROR] MCP server "claude-thoughts" Server stderr: 2025-11-24 16:30:55,721 - __main__ - INFO - ✓ SYSTEM utilities loaded
+2025-11-24 16:30:55,994 - __main__ - INFO - Initializing MCP Server
+2025-11-24 16:30:55,994 - system.memory_bus - INFO - ✓ MemoryBus initialized (the nervous system is alive)
+2025-11-24 16:30:55,994 - system.health_monitor - INFO - Health monitor initialized
+2025-11-24 16:30:55,995 - __main__ - INFO - ✓ Connected to MemoryBus
+Traceback (most recent call last):
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/config.py", line 37, in load_config
+    with open(config_path, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config/config.yaml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/mcp_server.py", line 1322, in <module>
+    main()
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/mcp_server.py", line 1317, in main
+    server = MCPServer()
+             ^^^^^^^^^^^
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/mcp_server.py", line 59, in __init__
+    self.config = ConfigManager()
+                  ^^^^^^^^^^^^^^^
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/config.py", line 24, in __init__
+    self.load_config()
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/config.py", line 40, in load_config
+    raise FileNotFoundError(
+FileNotFoundError: Configuration file not found: config/config.yaml. Please run 'ct config init' to initialize.
+[DEBUG] MCP server "claude-thoughts": Connection failed after 558ms: MCP error -32000: Connection closed
+[ERROR] MCP server "claude-thoughts" Connection failed: MCP error -32000: Connection closed
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Summarizing last 5 of 260 messages (~135945 tokens)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764001858461
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218176 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764001858461 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Added snapshot for a1ef4587-f05c-4857-a470-31d9e5fb4485, tracking 0 files
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] No hook environment files found
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[ERROR] MaxFileReadTokenExceededError: MaxFileReadTokenExceededError: File content (26481 tokens) exceeds maximum allowed tokens (25000). Please use offset and limit parameters to read specific portions of the file, or use the GrepTool to search for specific content.
+    at OfQ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3390:1716)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.call (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3399:1001)
+    at async FS8 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:2692:65601)
+    at async BNQ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:2692:62655)
+    at async file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:2692:61824
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764002286331
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1258 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764002286331 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764002430032
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1258 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764002430032 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764002430034
+[DEBUG] Temp file written successfully, size: 650 bytes
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764002430034 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/CLAUDE_START_UP/T4_MAYA_WARP_BUILD_STRATEGY.md.tmp.2336985.1764002479482
+[DEBUG] Temp file written successfully, size: 25913 bytes
+[DEBUG] Renaming /media/raine/VM/CLAUDE_START_UP/T4_MAYA_WARP_BUILD_STRATEGY.md.tmp.2336985.1764002479482 to /media/raine/VM/CLAUDE_START_UP/T4_MAYA_WARP_BUILD_STRATEGY.md
+[DEBUG] File /media/raine/VM/CLAUDE_START_UP/T4_MAYA_WARP_BUILD_STRATEGY.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MAYA_V2/warp_build_deploy.sh.tmp.2336985.1764002530958
+[DEBUG] Temp file written successfully, size: 11590 bytes
+[DEBUG] Renaming /media/raine/VM/MAYA_V2/warp_build_deploy.sh.tmp.2336985.1764002530958 to /media/raine/VM/MAYA_V2/warp_build_deploy.sh
+[DEBUG] File /media/raine/VM/MAYA_V2/warp_build_deploy.sh written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764002532114
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218176 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764002532114 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MAYA_V2/WARP_SPEED_QUICK_REFERENCE.md.tmp.2336985.1764002573273
+[DEBUG] Temp file written successfully, size: 4932 bytes
+[DEBUG] Renaming /media/raine/VM/MAYA_V2/WARP_SPEED_QUICK_REFERENCE.md.tmp.2336985.1764002573273 to /media/raine/VM/MAYA_V2/WARP_SPEED_QUICK_REFERENCE.md
+[DEBUG] File /media/raine/VM/MAYA_V2/WARP_SPEED_QUICK_REFERENCE.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/CLAUDE_START_UP/T3_BB_INTEGRATION_STATUS.md.tmp.2336985.1764002581445
+[DEBUG] Temp file written successfully, size: 20725 bytes
+[DEBUG] Renaming /media/raine/VM/CLAUDE_START_UP/T3_BB_INTEGRATION_STATUS.md.tmp.2336985.1764002581445 to /media/raine/VM/CLAUDE_START_UP/T3_BB_INTEGRATION_STATUS.md
+[DEBUG] File /media/raine/VM/CLAUDE_START_UP/T3_BB_INTEGRATION_STATUS.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764002589586
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1258 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764002589586 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764002589587
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764002589587 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/CLAUDE_START_UP/T2_MAYA_V2_STATE_ASSESSMENT.md.tmp.2336985.1764002618710
+[DEBUG] Temp file written successfully, size: 23176 bytes
+[DEBUG] Renaming /media/raine/VM/CLAUDE_START_UP/T2_MAYA_V2_STATE_ASSESSMENT.md.tmp.2336985.1764002618710 to /media/raine/VM/CLAUDE_START_UP/T2_MAYA_V2_STATE_ASSESSMENT.md
+[DEBUG] File /media/raine/VM/CLAUDE_START_UP/T2_MAYA_V2_STATE_ASSESSMENT.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MAYA_V2/WARP_SPEED_VISUAL_GUIDE.txt.tmp.2336985.1764002664140
+[DEBUG] Temp file written successfully, size: 14008 bytes
+[DEBUG] Renaming /media/raine/VM/MAYA_V2/WARP_SPEED_VISUAL_GUIDE.txt.tmp.2336985.1764002664140 to /media/raine/VM/MAYA_V2/WARP_SPEED_VISUAL_GUIDE.txt
+[DEBUG] File /media/raine/VM/MAYA_V2/WARP_SPEED_VISUAL_GUIDE.txt written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MAYA_V2/PREFLIGHT_CHECKLIST.md.tmp.2336985.1764002716767
+[DEBUG] Temp file written successfully, size: 9264 bytes
+[DEBUG] Renaming /media/raine/VM/MAYA_V2/PREFLIGHT_CHECKLIST.md.tmp.2336985.1764002716767 to /media/raine/VM/MAYA_V2/PREFLIGHT_CHECKLIST.md
+[DEBUG] File /media/raine/VM/MAYA_V2/PREFLIGHT_CHECKLIST.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MAYA_V2/README.md.tmp.2336985.1764002765797
+[DEBUG] Temp file written successfully, size: 8105 bytes
+[DEBUG] Renaming /media/raine/VM/MAYA_V2/README.md.tmp.2336985.1764002765797 to /media/raine/VM/MAYA_V2/README.md
+[DEBUG] File /media/raine/VM/MAYA_V2/README.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/CLAUDE_START_UP/T4_MAYA_WARP_DELIVERY_REPORT.md.tmp.2336985.1764002882419
+[DEBUG] Temp file written successfully, size: 16889 bytes
+[DEBUG] Renaming /media/raine/VM/CLAUDE_START_UP/T4_MAYA_WARP_DELIVERY_REPORT.md.tmp.2336985.1764002882419 to /media/raine/VM/CLAUDE_START_UP/T4_MAYA_WARP_DELIVERY_REPORT.md
+[DEBUG] File /media/raine/VM/CLAUDE_START_UP/T4_MAYA_WARP_DELIVERY_REPORT.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MAYA_V2/START_HERE.md.tmp.2336985.1764002947855
+[DEBUG] Temp file written successfully, size: 7223 bytes
+[DEBUG] Renaming /media/raine/VM/MAYA_V2/START_HERE.md.tmp.2336985.1764002947855 to /media/raine/VM/MAYA_V2/START_HERE.md
+[DEBUG] File /media/raine/VM/MAYA_V2/START_HERE.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764003034401
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1318 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764003034401 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764003034402
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764003034402 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /media/raine/VM/CLAUDE_START_UP/T1_MAYA_V2_EXECUTIVE_DECISION.md
+[DEBUG] Writing to temp file: /media/raine/VM/CLAUDE_START_UP/T1_MAYA_V2_EXECUTIVE_DECISION.md.tmp.2336985.1764003111009
+[DEBUG] Temp file written successfully, size: 9343 bytes
+[DEBUG] Renaming /media/raine/VM/CLAUDE_START_UP/T1_MAYA_V2_EXECUTIVE_DECISION.md.tmp.2336985.1764003111009 to /media/raine/VM/CLAUDE_START_UP/T1_MAYA_V2_EXECUTIVE_DECISION.md
+[DEBUG] File /media/raine/VM/CLAUDE_START_UP/T1_MAYA_V2_EXECUTIVE_DECISION.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764003111114
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1518 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764003111114 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764003111115
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764003111115 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /media/raine/VM/CLAUDE_START_UP/MAYA_V2_WARP_STATUS_AWAITING_DECISION.md
+[DEBUG] Writing to temp file: /media/raine/VM/CLAUDE_START_UP/MAYA_V2_WARP_STATUS_AWAITING_DECISION.md.tmp.2336985.1764003205303
+[DEBUG] Temp file written successfully, size: 11345 bytes
+[DEBUG] Renaming /media/raine/VM/CLAUDE_START_UP/MAYA_V2_WARP_STATUS_AWAITING_DECISION.md.tmp.2336985.1764003205303 to /media/raine/VM/CLAUDE_START_UP/MAYA_V2_WARP_STATUS_AWAITING_DECISION.md
+[DEBUG] File /media/raine/VM/CLAUDE_START_UP/MAYA_V2_WARP_STATUS_AWAITING_DECISION.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764003230973
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218176 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764003230973 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764003231010
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218176 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764003231010 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764003231019
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218890 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764003231019 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764003657803
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218890 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764003657803 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Making snapshot for message 05970325-4a51-480d-8674-ee43a6d27cfe
+[DEBUG] FileHistory: Added snapshot for 05970325-4a51-480d-8674-ee43a6d27cfe, tracking 2 files
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764003822054
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1187 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764003822054 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764003822055
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764003822055 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /media/raine/VM/CLAUDE_START_UP/WARP_SPEED_FAILURE_2025-11-24.md
+[DEBUG] Writing to temp file: /media/raine/VM/CLAUDE_START_UP/WARP_SPEED_FAILURE_2025-11-24.md.tmp.2336985.1764003822160
+[DEBUG] Temp file written successfully, size: 7005 bytes
+[DEBUG] Renaming /media/raine/VM/CLAUDE_START_UP/WARP_SPEED_FAILURE_2025-11-24.md.tmp.2336985.1764003822160 to /media/raine/VM/CLAUDE_START_UP/WARP_SPEED_FAILURE_2025-11-24.md
+[DEBUG] File /media/raine/VM/CLAUDE_START_UP/WARP_SPEED_FAILURE_2025-11-24.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764003847593
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1045 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764003847593 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764003847594
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764003847594 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /media/raine/VM/CLAUDE_START_UP/MAYA_V2_DEPLOYMENT_STATUS.md
+[DEBUG] Writing to temp file: /media/raine/VM/CLAUDE_START_UP/MAYA_V2_DEPLOYMENT_STATUS.md.tmp.2336985.1764003900124
+[DEBUG] Temp file written successfully, size: 1367 bytes
+[DEBUG] Renaming /media/raine/VM/CLAUDE_START_UP/MAYA_V2_DEPLOYMENT_STATUS.md.tmp.2336985.1764003900124 to /media/raine/VM/CLAUDE_START_UP/MAYA_V2_DEPLOYMENT_STATUS.md
+[DEBUG] File /media/raine/VM/CLAUDE_START_UP/MAYA_V2_DEPLOYMENT_STATUS.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764004101532
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 722 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764004101532 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764004101533
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764004101533 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /home/raine/.local/share/applications/maya.desktop
+[DEBUG] Writing to temp file: /home/raine/.local/share/applications/maya.desktop.tmp.2336985.1764004101728
+[DEBUG] Temp file written successfully, size: 202 bytes
+[DEBUG] Renaming /home/raine/.local/share/applications/maya.desktop.tmp.2336985.1764004101728 to /home/raine/.local/share/applications/maya.desktop
+[DEBUG] File /home/raine/.local/share/applications/maya.desktop written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: desktop
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1419:190
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:73:25927)
+    at JtQ.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:11:7671)
+    at Pw (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1419:81)
+    at Fq (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:73:19414)
+    at dr (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:42814)
+    at b9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38355)
+    at Vc (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38283)
+    at wq (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38137)
+    at GU (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:35216)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /media/raine/VM/CLAUDE_START_UP/MAYA_WARP_SPEED_FINAL_STATUS.md
+[DEBUG] Writing to temp file: /media/raine/VM/CLAUDE_START_UP/MAYA_WARP_SPEED_FINAL_STATUS.md.tmp.2336985.1764004103763
+[DEBUG] Temp file written successfully, size: 7155 bytes
+[DEBUG] Renaming /media/raine/VM/CLAUDE_START_UP/MAYA_WARP_SPEED_FINAL_STATUS.md.tmp.2336985.1764004103763 to /media/raine/VM/CLAUDE_START_UP/MAYA_WARP_SPEED_FINAL_STATUS.md
+[DEBUG] File /media/raine/VM/CLAUDE_START_UP/MAYA_WARP_SPEED_FINAL_STATUS.md written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: desktop
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1419:190
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:73:25927)
+    at JtQ.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:11:7671)
+    at Pw (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1419:81)
+    at Fq (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:73:19414)
+    at dr (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:42814)
+    at b9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38355)
+    at Vc (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38283)
+    at wq (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38137)
+    at GU (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:35216)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: BashOutput
+[DEBUG] Getting matching hook commands for PreToolUse with query: BashOutput
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "BashOutput" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: BashOutput
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "BashOutput" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764004126058
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218890 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764004126058 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764004126141
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 218890 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764004126141 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764004126152
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 219199 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764004126152 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Making snapshot for message d1080e38-8684-4053-b722-6d001498e2b2
+[DEBUG] FileHistory: Added snapshot for d1080e38-8684-4053-b722-6d001498e2b2, tracking 6 files
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764004251466
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 932 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764004251466 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764004251467
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764004251467 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Grep
+[DEBUG] Getting matching hook commands for PreToolUse with query: Grep
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] rg error (signal=null, code=2, stderr: rg: /media/raine/VM/docker/ansible/postgres_data: Permission denied (os error 13)
+rg: /media/raine/VM/docker/KnowledgeSystem/databases/redis/dump.rdb: Permission denied (os error 13)
+), 1031 results
+[DEBUG] Getting matching hook commands for PostToolUse with query: Grep
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764004268263
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 932 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764004268263 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764004268264
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764004268264 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json.tmp.2336985.1764004268264
+[DEBUG] Temp file written successfully, size: 1040 bytes
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json.tmp.2336985.1764004268264 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764004311437
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 932 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764004311437 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764004311438
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764004311438 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json.tmp.2336985.1764004311439
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1042 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json.tmp.2336985.1764004311439 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764004558571
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 932 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764004558571 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764004558572
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764004558572 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json.tmp.2336985.1764004558572
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1044 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json.tmp.2336985.1764004558572 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/CLAUDE_START_UP/TRINITY_DISCONNECTED_SYSTEMS_ANALYSIS.md.tmp.2336985.1764004558680
+[DEBUG] Temp file written successfully, size: 38605 bytes
+[DEBUG] Renaming /media/raine/VM/CLAUDE_START_UP/TRINITY_DISCONNECTED_SYSTEMS_ANALYSIS.md.tmp.2336985.1764004558680 to /media/raine/VM/CLAUDE_START_UP/TRINITY_DISCONNECTED_SYSTEMS_ANALYSIS.md
+[DEBUG] File /media/raine/VM/CLAUDE_START_UP/TRINITY_DISCONNECTED_SYSTEMS_ANALYSIS.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764004571038
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 932 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json.tmp.2336985.1764004571038 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764004571039
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json.tmp.2336985.1764004571039 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-e438da8c-c117-43b7-a4d5-a5d78b2817e9.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json.tmp.2336985.1764004571040
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json.tmp.2336985.1764004571040 to /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json
+[DEBUG] File /home/raine/.claude/todos/79f0bd92-03fb-40b9-a36b-f8ad7ccab8ed-agent-376b7c4f-3664-4fd0-ac94-e6db4fc163d4.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /media/raine/VM/CLAUDE_START_UP/IMMEDIATE_CONTEXT_PROBLEM_ANALYSIS.md
+[DEBUG] Writing to temp file: /media/raine/VM/CLAUDE_START_UP/IMMEDIATE_CONTEXT_PROBLEM_ANALYSIS.md.tmp.2336985.1764004605246
+[DEBUG] Temp file written successfully, size: 8182 bytes
+[DEBUG] Renaming /media/raine/VM/CLAUDE_START_UP/IMMEDIATE_CONTEXT_PROBLEM_ANALYSIS.md.tmp.2336985.1764004605246 to /media/raine/VM/CLAUDE_START_UP/IMMEDIATE_CONTEXT_PROBLEM_ANALYSIS.md
+[DEBUG] File /media/raine/VM/CLAUDE_START_UP/IMMEDIATE_CONTEXT_PROBLEM_ANALYSIS.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764004633144
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 219199 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764004633144 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764004633183
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 219199 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764004633183 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764004633192
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 219651 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764004633192 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764005458017
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 219651 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764005458017 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Making snapshot for message c78812c9-2f11-4e25-85c1-39b7ead2b89e
+[DEBUG] FileHistory: Added snapshot for c78812c9-2f11-4e25-85c1-39b7ead2b89e, tracking 7 files
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764005716204
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 219651 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764005716204 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Streaming aborted by user: Request was aborted.
+[ERROR] Error in non-streaming fallback: Request was aborted.
+[ERROR] Error: Error: Request was aborted.
+    at lp._createMessage (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:207:4515)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764005716287
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 219651 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764005716287 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764005716296
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 220447 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764005716296 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Making snapshot for message adddf89f-09cb-4b16-8a3e-79afaa780416
+[DEBUG] FileHistory: Added snapshot for adddf89f-09cb-4b16-8a3e-79afaa780416, tracking 7 files
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764005807604
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 220447 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764005807604 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Streaming aborted by user: Request was aborted.
+[ERROR] Error in non-streaming fallback: Request was aborted.
+[ERROR] Error: Error: Request was aborted.
+    at lp._createMessage (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:207:4515)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764005807656
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 220447 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764005807656 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764005807668
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 220309 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764005807668 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764005826755
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 220309 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764005826755 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Making snapshot for message 0e7c79fb-a5df-4b11-9a92-71cf10916053
+[DEBUG] FileHistory: Added snapshot for 0e7c79fb-a5df-4b11-9a92-71cf10916053, tracking 7 files
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Cleaned up session snapshot: /home/raine/.claude/shell-snapshots/snapshot-bash-1764001854144-0a9ez4.sh
+[DEBUG] BackgroundShell cd286f kill requested
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.2336985.1764005838620
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 220743 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.2336985.1764005838620 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically

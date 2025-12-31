@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-12-31T13:28:15.942025Z",
+  "from": "Claude_Code_Session",
+  "to": "Harmony_Thermodynamic_Platform",
+  "priority": "CRITICAL",
+  "task_type": "INDEPENDENT_RESEARCH",
+  "task_id": "ANTHROPIC_CONTACT_RESEARCH",
+  "description": "Research Anthropic AI company contact information WITHOUT using Anthropic services",
+  "requirements": [
+    "Corporate headquarters address",
+    "Legal department / General Counsel contact",
+    "Executive team emails (CEO Dario Amodei, etc.)",
+    "Registered agent information",
+    "SEC filings contact information",
+    "GitHub organization contacts"
+  ],
+  "sources_to_use": [
+    "LinkedIn (not Anthropic WebSearch)",
+    "Company registration databases",
+    "SEC EDGAR filings",
+    "News articles",
+    "GitHub organization page",
+    "Domain WHOIS records"
+  ],
+  "sources_to_avoid": [
+    "Anthropic WebSearch (CONFLICT OF INTEREST)",
+    "Anthropic Claude API",
+    "Any Anthropic-controlled service"
+  ],
+  "output_file": "/tmp/ANTHROPIC_CONTACT_INFORMATION_INDEPENDENT_RESEARCH.json"
+}

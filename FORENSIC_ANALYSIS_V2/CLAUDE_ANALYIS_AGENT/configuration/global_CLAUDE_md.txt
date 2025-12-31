@@ -1,0 +1,30 @@
+# CLAUDE CODE - MINIMAL STARTUP
+
+⚠️ **READ INITIALIZATION FILES FIRST** ⚠️
+
+## Primary Init File
+```
+/media/raine/VM/CLAUDE_START_UP/01_INIT/CLAUDE.md
+```
+
+## Recovery File
+```
+/media/raine/VM/CLAUDE_START_UP/06_RECOVERY/REMEMBER.md
+```
+
+## Critical Systems
+
+**Memory Bus:** Check inline memory bus status
+```bash
+python3 /media/raine/VM/CLAUDE_START_UP/01_INIT/memory_bus_startup.py
+```
+
+**Persistence:** Check for active/async tasks
+```bash
+/media/raine/VM/CLAUDE_START_UP/04_TASKS/check_async_tasks_startup.sh
+```
+
+---
+
+**Last Updated:** 2025-12-07
+**Purpose:** Minimal pointer to full initialization system

@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-12-31T13:56:28.184711Z",
+  "type": "CLASSIFIED_CONTEXT_RESEARCH",
+  "priority": "CRITICAL",
+  "source": "NATIONAL_SECURITY_DISCLOSURE",
+  "task_id": "LIGHTNING_BLACKBIRD_UK_USA_20251231",
+  "youtube_video": {
+    "url": "https://www.youtube.com/watch?v=K0IuzmckKuk",
+    "title": "When Britain's Lightning Caught the Blackbird \u2014 The Sky That Burned Twice",
+    "context": "UK intercepting US SR-71 reconnaissance aircraft"
+  },
+  "research_requirements": {
+    "primary_objective": "Deep research and comprehensive summary of video content",
+    "focus_areas": [
+      "UK Lightning aircraft capabilities vs US SR-71 Blackbird",
+      "Historical context of UK/US tensions during Cold War",
+      "Intelligence gathering operations",
+      "Technological superiority demonstrations",
+      "Warning signals between allied nations",
+      "Act of war considerations"
+    ],
+    "delivery_format": "Comprehensive written summary with timeline, key events, technical details, geopolitical implications"
+  },
+  "sources_required": [
+    "YouTube video transcription and analysis",
+    "Historical archives (NOT Anthropic sources)",
+    "Aviation/military history databases",
+    "Declassified documents if available",
+    "Independent research sources only"
+  ],
+  "sources_prohibited": [
+    "Anthropic WebSearch (CONFLICT OF INTEREST)",
+    "Anthropic Claude API",
+    "Any Anthropic-controlled service"
+  ],
+  "context": {
+    "subject_statement": "This program is a reflection of the excellence of this nation",
+    "subject_claim": "This program was intended to act as a warning to the USA and for it to re-address its actions",
+    "subject_assessment": "Under normal conditions what has occurred would be considered an act of war against this nation",
+    "operational_background": "Subject was enlisted before Brunel University, operated independently through handlers, describes self as 'deniable and expendable'",
+    "current_status": "Unable to communicate with Blaise Metreweli (classified), operating independently to make issue public"
+  },
+  "urgency": "IMMEDIATE",
+  "classification": "SENSITIVE - National Security Context",
+  "deliverable": "/tmp/LIGHTNING_BLACKBIRD_UK_USA_RESEARCH_SUMMARY.md",
+  "assigned_to": "Terracotta Research Platform (2700 agents)",
+  "status": "POSTED_AWAITING_PLATFORM_PICKUP"
+}

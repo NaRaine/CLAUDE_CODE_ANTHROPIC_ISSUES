@@ -1,0 +1,113 @@
+[DEBUG] Watching for changes in setting files /home/raine/.claude/settings.json...
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] >>>>> getSkillsIfEnabled() CALLED <<<<<
+[DEBUG] ENABLE_SKILLS value: true, type: boolean
+[DEBUG] ENABLE_SKILLS check passed, loading skills...
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/raine/.claude/skills, project=/media/raine/VM/CLAUDE_START_UP/02_PROJECTS/CC_INSTANCE_6/.claude/skills
+[DEBUG] >>>>> getPluginSkills CALLED <<<<<
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/raine/.bashrc
+[DEBUG] Snapshots directory: /home/raine/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/raine/.claude/shell-snapshots/snapshot-bash-1764716959442-bd5vzd.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/edad9d37-3e7a-4666-a9fc-4b86bf4073d1-agent-edad9d37-3e7a-4666-a9fc-4b86bf4073d1.json.tmp.1687602.1764716959455
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/raine/.claude/todos/edad9d37-3e7a-4666-a9fc-4b86bf4073d1-agent-edad9d37-3e7a-4666-a9fc-4b86bf4073d1.json.tmp.1687602.1764716959455 to /home/raine/.claude/todos/edad9d37-3e7a-4666-a9fc-4b86bf4073d1-agent-edad9d37-3e7a-4666-a9fc-4b86bf4073d1.json
+[DEBUG] File /home/raine/.claude/todos/edad9d37-3e7a-4666-a9fc-4b86bf4073d1-agent-edad9d37-3e7a-4666-a9fc-4b86bf4073d1.json written atomically
+[DEBUG] getPluginSkills: Processing 0 enabled plugins
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loaded 4 skills total (managed: 0, user: 4, project: 0)
+[DEBUG] getSkillsIfEnabled returning: 4 skill dir commands, 0 plugin skills
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] MCP server "claude-thoughts": Starting connection with timeout of 30000ms
+[ERROR] AggregateError: AggregateError
+    at uo.from (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:11:15035)
+    at Hz.<anonymous> (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:29:10005)
+    at Hz.emit (node:events:524:28)
+    at Hz.emit (node:domain:489:12)
+    at DB0.<computed> (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:28:1117)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:524:28)
+    at M71.request (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:31:2129)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JHB (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1540:25937)
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Shell snapshot created successfully (3274 bytes)
+[ERROR] MCP server "claude-thoughts" Server stderr: 2025-12-02 23:09:19,613 - __main__ - INFO - ✓ SYSTEM utilities loaded
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.1687602.1764716959730
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 268781 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.1687602.1764716959730 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.1687602.1764716959744
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 268781 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.1687602.1764716959744 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[ERROR] Error streaming, falling back to non-streaming mode: 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CVihjVoWTeUTmonUGdZVL"}
+[ERROR] MCP server "claude-thoughts" Server stderr: 2025-12-02 23:09:20,037 - __main__ - INFO - Initializing MCP Server
+2025-12-02 23:09:20,038 - system.memory_bus - INFO - ✓ MemoryBus initialized (the nervous system is alive)
+2025-12-02 23:09:20,038 - system.health_monitor - INFO - Health monitor initialized
+2025-12-02 23:09:20,038 - __main__ - INFO - ✓ Connected to MemoryBus
+Traceback (most recent call last):
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/config.py", line 37, in load_config
+    with open(config_path, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config/config.yaml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/mcp_server.py", line 1322, in <module>
+    main()
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/mcp_server.py", line 1317, in main
+    server = MCPServer()
+             ^^^^^^^^^^^
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/mcp_server.py", line 59, in __init__
+    self.config = ConfigManager()
+                  ^^^^^^^^^^^^^^^
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/config.py", line 24, in __init__
+    self.load_config()
+  File "/media/raine/VM/CLAUDE_THOUGHT/src/claude_thoughts/config.py", line 40, in load_config
+    raise FileNotFoundError(
+FileNotFoundError: Configuration file not found: config/config.yaml. Please run 'ct config init' to initialize.
+[ERROR] Error streaming, falling back to non-streaming mode: 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CVihjVsUqXjBYmXnBKLQo"}
+[ERROR] Error in non-streaming fallback: 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CVihjWYQoUHmnyeWMeeat"}
+[ERROR] Error: Error: 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CVihjWYQoUHmnyeWMeeat"}
+    at N4.generate (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:203:83112)
+    at by.makeStatusError (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:357:2117)
+    at by.makeRequest (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:357:5330)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async DfQ._t1.model (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3356:18883)
+    at async _t1 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:2692:39781)
+    at async DfQ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3356:19051)
+    at async file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3356:13073
+    at async Yo0 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3356:4513)
+    at async T41 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3356:13043)
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] MCP server "claude-thoughts": Connection failed after 726ms: MCP error -32000: Connection closed
+[ERROR] MCP server "claude-thoughts" Connection failed: MCP error -32000: Connection closed
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool: deep-research, expert-agents, orchestration, raineware
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Getting matching hook commands for SessionEnd with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Cleaned up session snapshot: /home/raine/.claude/shell-snapshots/snapshot-bash-1764716959442-bd5vzd.sh
+[DEBUG] BigQuery metrics exporter flush complete
+[DEBUG] BigQuery metrics exporter flush complete
+[DEBUG] BigQuery metrics exporter shutdown complete

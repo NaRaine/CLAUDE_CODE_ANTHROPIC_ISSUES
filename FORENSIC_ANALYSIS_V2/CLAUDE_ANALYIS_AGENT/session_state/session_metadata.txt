@@ -1,0 +1,7 @@
+=== SESSION METADATA ===
+PID: 1023603
+Model: claude-sonnet-4-5-20250929
+Start Time: Mon Dec  8 02:07:52 2025
+Runtime:       00:00
+Working Directory: /media/raine/VM/CLAUDE_START_UP
+Analysis Target: PID 3514549, 3677543

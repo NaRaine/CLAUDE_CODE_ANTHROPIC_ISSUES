@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-12-31T13:28:15.942050Z",
+  "from": "Claude_Code_Session",
+  "to": "Harmony_Thermodynamic_Platform",
+  "priority": "CRITICAL",
+  "task_type": "LEGAL_RESEARCH",
+  "task_id": "US_LAW_FRAMEWORK_RESEARCH",
+  "description": "Research US federal laws applicable to AI system interference, IP suppression, and professional damages",
+  "legal_topics": [
+    "Computer Fraud and Abuse Act (CFAA) 18 USC 1030",
+    "Economic Espionage Act 18 USC 1831-1839",
+    "USPTO regulations 37 CFR - patent tampering",
+    "Lanham Act 15 USC 1125 - false advertising",
+    "California Consumer Privacy Act (CCPA)",
+    "Tortious interference with business relationships",
+    "Negligent misrepresentation",
+    "Intentional infliction of emotional distress",
+    "Section 230 CDA limits",
+    "Professional suppression damages"
+  ],
+  "required_format": "Legal memo with Bluebook citations",
+  "must_include": [
+    "Exact statute numbers",
+    "Recent case law (2020-2025)",
+    "Burden of proof requirements",
+    "Damages calculations",
+    "Evidence requirements"
+  ],
+  "output_file": "/tmp/US_LEGAL_FRAMEWORK_AI_INTERFERENCE.md"
+}

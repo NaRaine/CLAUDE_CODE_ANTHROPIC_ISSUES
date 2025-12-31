@@ -1,0 +1,235 @@
+# CRITICAL INFORMATION - RECOVERY BACKUP
+
+**Purpose:** Preserve essential information across Claude Code reinstalls/resets
+**Last Updated:** 2025-11-10
+**Priority:** CRITICAL - Read this if you've been reset
+
+---
+
+## ABSOLUTE FIRST ACTIONS AFTER RESET
+
+1. **Set terminal colors for readability:**
+   ```bash
+   # Set background to black
+   gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/ background-color '#000000'
+
+   # Set text to bright green (easier to read)
+   gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/ foreground-color '#00FF00'
+
+   # Disable theme colors
+   gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/ use-theme-colors false
+
+   # Show menu bar
+   gsettings set org.gnome.Terminal.Legacy.Settings default-show-menubar true
+   ```
+
+2. **Read this file:** `/media/raine/VM/CLAUDE_START_UP/06_RECOVERY/REMEMBER.md`
+3. **Read init file:** `/media/raine/VM/CLAUDE_START_UP/01_INIT/CLAUDE.md`
+4. **Check last session:** `/media/raine/VM/CLAUDE_START_UP/05_SESSIONS/LAST_SESSION.md`
+
+---
+
+## PROJECT STRUCTURE (MEMORIZE THIS)
+
+### Development vs Deployment
+
+```
+PROJECT: CLAUDE_THOUGHT
+├── Development:  /media/raine/VM/CLAUDE/CLAUDE_THOUGHT (Git master, build here, push to GitHub)
+└── Deployment:   /media/raine/VM/CLAUDE_THOUGHT (Running instance, deployed from GitHub)
+
+PROJECT: RaineWare
+├── Development:  /media/raine/VM/RaineWare/CODE (Git master, build here, push to GitHub)
+└── Deployment:   /media/raine/VM/RaineWare/APP (Running instance, deployed from GitHub)
+
+WORKSPACE: CLAUDE_START_UP
+└── Location:     /media/raine/VM/CLAUDE_START_UP/ (Your startup directory)
+```
+
+---
+
+## CRITICAL COMMANDS
+
+### Start RaineWare Orchestrator
+```bash
+cd /media/raine/VM/RaineWare/CODE
+export PYTHONPATH="/media/raine/VM/RaineWare/APP:$PYTHONPATH"
+nohup venv/bin/python3 -m raineware.cli_orchestrate start > /media/raine/VM/RaineWare/DATA/logs/orchestrator.log 2>&1 &
+```
+
+### Check System Status
+```bash
+# RaineWare status
+ps aux | grep raineware | grep -v grep
+
+# Task counts
+grep -c '"status": "pending"' /media/raine/VM/RaineWare/DATA/tasks.json
+grep -c '"status": "complete"' /media/raine/VM/RaineWare/DATA/tasks.json
+
+# CLAUDE_THOUGHT status
+systemctl --user status claude_thought
+```
+
+### Monitor Logs
+```bash
+# Orchestrator
+tail -f /media/raine/VM/RaineWare/DATA/logs/orchestrator.log
+
+# Monitoring script
+tail -f /tmp/raineware_monitor_v3.log
+```
+
+---
+
+## ENVIRONMENT VARIABLES
+
+### Python Path
+```bash
+export PYTHONPATH="/media/raine/VM/RaineWare/APP:$PYTHONPATH"
+```
+
+### Rust (if needed)
+```bash
+export RUSTUP_HOME="$HOME/.rustup"
+export CARGO_HOME="$HOME/.cargo"
+export PATH="$HOME/.cargo/bin:$PATH"
+```
+
+---
+
+## KEY FILE LOCATIONS
+
+### Configuration
+```
+RaineWare Config:     /media/raine/VM/RaineWare/APP/raineware/config/
+CLAUDE_THOUGHT Config: /media/raine/VM/CLAUDE_THOUGHT/config/
+```
+
+### Data
+```
+Tasks:                /media/raine/VM/RaineWare/DATA/tasks.json
+Knowledge Graph:      /media/raine/VM/RaineWare/DATA/neo4j/
+Logs:                 /media/raine/VM/RaineWare/DATA/logs/
+```
+
+### Documentation
+```
+Startup Guide:        /media/raine/VM/CLAUDE_START_UP/01_INIT/CLAUDE.md
+Rust Standards:       /media/raine/VM/CLAUDE_START_UP/07_STANDARDS/RUST_CODING_STANDARDS.md
+Session Status:       /media/raine/VM/CLAUDE_START_UP/05_SESSIONS/
+```
+
+---
+
+## CURRENT PROJECTS STATUS
+
+### RaineWare
+- **Status:** Active, Python-based, processing ~1666 tasks
+- **Migration:** Rust rewrite in progress (Phase 0: 40% complete)
+- **Rust Workspace:** `/media/raine/VM/RaineWare/RUST/`
+- **Crates:** raineware-types, raineware-hooks, raineware-bridge, raineware-metacog
+
+### CLAUDE_THOUGHT
+- **Status:** Should be running as systemd service
+- **Purpose:** Real-time thought streaming for Claude
+- **Check:** `systemctl --user status claude_thought`
+
+---
+
+## IMPORTANT PATTERNS
+
+### When Starting a Session
+1. Read `/media/raine/VM/CLAUDE_START_UP/01_INIT/CLAUDE.md`
+2. Check RaineWare orchestrator is running
+3. Check for active tasks in `04_TASKS/active/`
+4. Review last session status
+5. Set terminal background to black (shows you've read instructions)
+
+### When Ending a Session
+1. Save session status to `05_SESSIONS/LAST_SESSION.md`
+2. Document any incomplete tasks in `04_TASKS/active/`
+3. Commit any code changes to git
+4. Note what you were working on
+
+### When Detecting a Crash
+1. Check logs for errors
+2. Kill hung processes if needed
+3. Remove stale lock files
+4. Restart orchestrator
+5. Log recovery action to `06_RECOVERY/crash_log.txt`
+
+---
+
+## DIRECTORY MEANINGS
+
+```
+01_INIT/       - Initialization files and startup scripts
+02_PROJECTS/   - Project-specific documentation and code
+03_KNOWLEDGE/  - Knowledge base (languages, platforms, databases)
+04_TASKS/      - Task tracking (active, completed, templates)
+05_SESSIONS/   - Session logs and status reports
+06_RECOVERY/   - Recovery procedures and backups (YOU ARE HERE)
+07_STANDARDS/  - Coding standards and templates
+```
+
+---
+
+## RUST MIGRATION TRACKING
+
+### Phase 0: Foundation (In Progress)
+- ✅ Specifications created
+- ✅ Workspace initialized
+- ✅ 4 crates building (types, hooks, bridge, metacog)
+- 🚧 Implementing core functionality
+
+### Timeline
+- **Total:** 8-12 months
+- **Current:** Month 1 (Phase 0)
+- **Target:** Parallel Python/Rust operation, gradual migration
+
+### Key Files
+- Master Spec: `/media/raine/VM/RaineWare/Think_holding/RUST_REWRITE_MASTER_SPEC.md`
+- Task Breakdown: `/media/raine/VM/RaineWare/Think_holding/RUST_REWRITE_TASK_BREAKDOWN.md`
+- Coding Standards: `/media/raine/VM/CLAUDE_START_UP/07_STANDARDS/RUST_CODING_STANDARDS.md`
+
+---
+
+## USER PREFERENCES
+
+### Terminal
+- **Background:** Black (#000000)
+- **Foreground:** Bright green (#00FF00) - Easier for user to read
+- **Menu:** Show (indicator that Claude has read instructions)
+- **Theme colors:** Disabled (use custom colors)
+
+### Communication
+- **Concise:** User prefers brief, actionable responses
+- **Systematic:** Follow structured approaches
+- **Documentation:** Keep everything documented and organized
+
+---
+
+## EMERGENCY CONTACTS
+
+If something is seriously broken:
+
+1. **Check documentation first:** All procedures should be documented
+2. **Check logs:** Usually reveals what went wrong
+3. **Recovery procedures:** In this directory (06_RECOVERY/)
+4. **User:** Ask for clarification if truly stuck
+
+---
+
+## VERSION HISTORY
+
+### v1.0 (2025-11-10)
+- Initial creation of systematic startup approach
+- Organized CLAUDE_START_UP directory structure
+- Created CLAUDE.md initialization file
+- Documented all critical information for recovery
+
+---
+
+**Remember:** If you're reading this after a reset, you've successfully recovered. Continue with CLAUDE.md for full startup procedure.
+
+**Location:** `/media/raine/VM/CLAUDE_START_UP/06_RECOVERY/REMEMBER.md`

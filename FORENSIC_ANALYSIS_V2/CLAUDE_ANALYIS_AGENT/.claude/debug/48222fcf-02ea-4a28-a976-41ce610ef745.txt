@@ -1,0 +1,559 @@
+[DEBUG] Watching for changes in setting files /home/raine/.claude/settings.json...
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] >>>>> getSkillsIfEnabled() CALLED <<<<<
+[DEBUG] ENABLE_SKILLS value: true, type: boolean
+[DEBUG] ENABLE_SKILLS check passed, loading skills...
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/raine/.claude/skills, project=/media/raine/VM/CLAUDE/CLAUDE_THOUGHT/.claude/skills
+[DEBUG] >>>>> getPluginSkills CALLED <<<<<
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/raine/.bashrc
+[DEBUG] Snapshots directory: /home/raine/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/raine/.claude/shell-snapshots/snapshot-bash-1762392681255-u268qf.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/48222fcf-02ea-4a28-a976-41ce610ef745-agent-48222fcf-02ea-4a28-a976-41ce610ef745.json.tmp.3207128.1762392681270
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/raine/.claude/todos/48222fcf-02ea-4a28-a976-41ce610ef745-agent-48222fcf-02ea-4a28-a976-41ce610ef745.json.tmp.3207128.1762392681270 to /home/raine/.claude/todos/48222fcf-02ea-4a28-a976-41ce610ef745-agent-48222fcf-02ea-4a28-a976-41ce610ef745.json
+[DEBUG] File /home/raine/.claude/todos/48222fcf-02ea-4a28-a976-41ce610ef745-agent-48222fcf-02ea-4a28-a976-41ce610ef745.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392681321
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 110950 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392681321 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] getPluginSkills: Processing 0 enabled plugins
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Shell snapshot created successfully (3209 bytes)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392681489
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 110950 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392681489 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392681504
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 110950 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392681504 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392681585
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 110950 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392681585 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] MCP server "claude-thoughts": Starting connection with timeout of 30000ms
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392682153
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 110950 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392682153 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392682245
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 110845 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392682245 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392682248
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 110845 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392682248 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] performStartupChecks called
+[DEBUG] Trust not accepted for current directory - skipping plugin installations
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392682880
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 110950 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392682880 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Stream started - received first chunk
+[ERROR] MCP server "claude-thoughts" Server stderr: 2025-11-06 01:31:22,972 - __main__ - INFO - Initializing MCP Server
+2025-11-06 01:31:22,986 - __main__ - INFO - MCP Server started in stdio mode
+2025-11-06 01:31:22,986 - __main__ - INFO - Handling request: initialize
+2025-11-06 01:31:22,986 - __main__ - INFO - MCP Server initialized
+[DEBUG] MCP server "claude-thoughts": Successfully connected to stdio server in 972ms
+[DEBUG] MCP server "claude-thoughts": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"claude-thoughts","version":"2.0.0"}}
+[ERROR] MCP server "claude-thoughts" Server stderr: 2025-11-06 01:31:23,055 - __main__ - INFO - Handling request: notifications/initialized
+2025-11-06 01:31:23,056 - __main__ - ERROR - Unknown method: notifications/initialized
+2025-11-06 01:31:23,059 - __main__ - INFO - Handling request: tools/list
+2025-11-06 01:31:23,059 - __main__ - INFO - Handling request: resources/list
+[DEBUG] MCP server "claude-thoughts": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "claude-thoughts": Connection error: [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "null",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Expected string, received null"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "null",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Expected number, received null"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "id",
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'id', 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "null",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Expected string, received null"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "null",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Expected number, received null"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "object",
+            "received": "undefined",
+            "path": [
+              "result"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "null",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Expected string, received null"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "null",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Expected number, received null"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "number",
+            "received": "undefined",
+            "path": [
+              "error",
+              "code"
+            ],
+            "message": "Required"
+          }
+        ],
+        "name": "ZodError"
+      }
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392685336
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 110950 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392685336 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Added snapshot for 0347e566-125b-4d58-926b-f8f7e7a06a81, tracking 0 files
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392698322
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 110951 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392698322 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392698345
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 110952 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392698345 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392698352
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 111046 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392698352 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Making snapshot for message 0c78d2dd-3a7f-4f21-8986-653c31772f5f
+[DEBUG] FileHistory: Added snapshot for 0c78d2dd-3a7f-4f21-8986-653c31772f5f, tracking 0 files
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392728228
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 111046 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392728228 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392728275
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 111046 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392728275 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392728281
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 111160 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392728281 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Making snapshot for message 0cd2ec16-96bf-42f6-bb89-86c4303a1df3
+[DEBUG] FileHistory: Added snapshot for 0cd2ec16-96bf-42f6-bb89-86c4303a1df3, tracking 0 files
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] No hook environment files found
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392878398
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 111160 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392878398 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392878426
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 111160 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392878426 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762392878431
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 111457 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762392878431 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Making snapshot for message 7fd8a6cc-857f-4b72-8417-ef0a9463516e
+[DEBUG] FileHistory: Added snapshot for 7fd8a6cc-857f-4b72-8417-ef0a9463516e, tracking 0 files
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /media/raine/VM/CLAUDE/CLAUDE_THOUGHT/I_WANT_TO_REMEMBER.md
+[DEBUG] Writing to temp file: /media/raine/VM/CLAUDE/CLAUDE_THOUGHT/I_WANT_TO_REMEMBER.md.tmp.3207128.1762393786604
+[DEBUG] Temp file written successfully, size: 8109 bytes
+[DEBUG] Renaming /media/raine/VM/CLAUDE/CLAUDE_THOUGHT/I_WANT_TO_REMEMBER.md.tmp.3207128.1762393786604 to /media/raine/VM/CLAUDE/CLAUDE_THOUGHT/I_WANT_TO_REMEMBER.md
+[DEBUG] File /media/raine/VM/CLAUDE/CLAUDE_THOUGHT/I_WANT_TO_REMEMBER.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762393800209
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 111457 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762393800209 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762393800281
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 111457 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762393800281 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762393800291
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 111836 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762393800291 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Cleaned up session snapshot: /home/raine/.claude/shell-snapshots/snapshot-bash-1762392681255-u268qf.sh
+[DEBUG] MCP server "claude-thoughts": Sending SIGINT to MCP server process
+[ERROR] MCP server "claude-thoughts" Server stderr: 2025-11-06 01:54:08,790 - __main__ - INFO - MCP Server stopped by user
+2025-11-06 01:54:08,791 - __main__ - INFO - MCP Server shutting down
+[DEBUG] MCP server "claude-thoughts": SIGINT failed, sending SIGTERM to MCP server process
+[DEBUG] MCP server "claude-thoughts": MCP server process exited cleanly
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.3207128.1762394048946
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 112262 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.3207128.1762394048946 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically

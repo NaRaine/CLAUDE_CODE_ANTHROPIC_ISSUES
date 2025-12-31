@@ -1,0 +1,2789 @@
+[DEBUG] Watching for changes in setting files /home/raine/.claude/settings.json, /media/raine/VM/MITRA_BOX_DOC/Marker/.claude/settings.local.json...
+[DEBUG] Applying permission update: Adding 7 allow rule(s) to destination 'localSettings': ["Bash(python3:*)","Bash(chmod:*)","Bash(pip install:*)","Bash(venv_email/bin/pip install:*)","Bash(./run_email_converter.sh:*)","Bash(./batch_emails_to_markdown_llm_Q3.py:*)","Read(//media/raine/VM/MITRA_BOX_DOC/DOCUMENTS/NARAINE_ESTATE_EMAIL_MD/Burglary/PC Klaire Maddams 3466SN/**)"]
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] >>>>> getSkillsIfEnabled() CALLED <<<<<
+[DEBUG] ENABLE_SKILLS value: true, type: boolean
+[DEBUG] ENABLE_SKILLS check passed, loading skills...
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/raine/.claude/skills, project=/media/raine/VM/MITRA_BOX_DOC/Marker/.claude/skills
+[DEBUG] >>>>> getPluginSkills CALLED <<<<<
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/raine/.bashrc
+[DEBUG] Snapshots directory: /home/raine/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/raine/.claude/shell-snapshots/snapshot-bash-1761847768965-xslr3f.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761847768972
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761847768972 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] getPluginSkills: Processing 0 enabled plugins
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Shell snapshot created successfully (3209 bytes)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761847769096
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83514 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761847769096 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761847769100
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83514 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761847769100 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761847769404
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83514 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761847769404 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761847769471
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83409 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761847769471 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761847769475
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83409 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761847769475 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] performStartupChecks called
+[DEBUG] Starting background plugin installations
+[DEBUG] performBackgroundPluginInstallations called
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761847769777
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83514 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761847769777 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Stream started - received first chunk
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761847771119
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83514 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761847771119 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Added snapshot for 8dbdd98b-ada3-4599-af5e-95d52874c04e, tracking 0 files
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761847976096
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1379 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761847976096 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761847991005
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1383 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761847991005 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761847991079
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 51704 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761847991079 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848002658
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 51706 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848002658 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848002772
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 51708 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848002772 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848002906
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 51710 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848002906 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848003054
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 51712 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848003054 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848015844
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1385 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848015844 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848015913
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 51899 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848015913 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848029305
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1389 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848029305 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848029377
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 52207 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848029377 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848039645
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1391 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848039645 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848039715
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 52360 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848039715 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848057548
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1393 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848057548 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848057621
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 55497 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848057621 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848073418
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1731 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848073418 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848073495
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 55924 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848073495 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] FileHistory: Tracked file modification for /media/raine/VM/MITRA_BOX_DOC/Marker/OCR_Document_Processing_Prompt.md
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/OCR_Document_Processing_Prompt.md.tmp.71361.1761848092808
+[DEBUG] Temp file written successfully, size: 2562 bytes
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/OCR_Document_Processing_Prompt.md.tmp.71361.1761848092808 to /media/raine/VM/MITRA_BOX_DOC/Marker/OCR_Document_Processing_Prompt.md
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/OCR_Document_Processing_Prompt.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848117378
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1735 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848117378 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848117457
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 59393 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848117457 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848133675
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 60446 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848133675 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848147649
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1737 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848147649 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848147729
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 60457 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848147729 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848154057
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 60544 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848154057 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848163826
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 60778 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848163826 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848196723
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 1879 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848196723 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848196842
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 60823 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848196842 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848197026
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 61045 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848197026 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848197228
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 61184 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848197228 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848197471
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 61325 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848197471 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848197769
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 61349 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761848197769 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848210158
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761848210158 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761848230027
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83514 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761848230027 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761848230068
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83514 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761848230068 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761848230073
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761848230073 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761849571869
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761849571869 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761851371712
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761851371712 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761853171930
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761853171930 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761854971789
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761854971789 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761856771832
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761856771832 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761858571898
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761858571898 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761860372334
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761860372334 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761862171812
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761862171812 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761863971782
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761863971782 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761865771833
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761865771833 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761867577308
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761867577308 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761869371813
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761869371813 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761871171843
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761871171843 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761872971867
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761872971867 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761874771825
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761874771825 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761876571812
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761876571812 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761878371862
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761878371862 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761880171821
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761880171821 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761881971807
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761881971807 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761883771784
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761883771784 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761885571961
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761885571961 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761887372000
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761887372000 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761889171863
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761889171863 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761890971920
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761890971920 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761892771953
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761892771953 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761894571918
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761894571918 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761896371909
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761896371909 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761898171835
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761898171835 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761899972251
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761899972251 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761901771925
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761901771925 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761903571929
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761903571929 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761905371917
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761905371917 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761907171876
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761907171876 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761908972015
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761908972015 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761910772019
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761910772019 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761912572367
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761912572367 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761914372107
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761914372107 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761916171967
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761916171967 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761917972347
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761917972347 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761919772459
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761919772459 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761921572025
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761921572025 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761923372340
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761923372340 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761923851378
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761923851378 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[ERROR] Error: Error: Command failed: xclip -selection clipboard -t text/plain -o
+/bin/sh: 1: xclip: not found
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at checkExecSyncError (node:child_process:891:11)
+    at execSync (node:child_process:963:15)
+    at AB5 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1491:3879)
+    at BDB (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1491:4928)
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1544:3827
+    at LS (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:73:20238)
+    at MS (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:73:20721)
+    at Object.useState (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:73:27274)
+[ERROR] Error: Error: Command failed: xclip -selection clipboard -t text/plain -o
+/bin/sh: 1: xclip: not found
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at checkExecSyncError (node:child_process:891:11)
+    at execSync (node:child_process:963:15)
+    at AB5 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1491:3879)
+    at BDB (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1491:4928)
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1544:3827
+    at LS (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:73:20238)
+    at MS (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:73:20721)
+    at Object.useState (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:73:27274)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Making snapshot for message 5cd30fdc-13ae-4bcd-9ce3-0ebb31aa24e0
+[DEBUG] FileHistory: Added snapshot for 5cd30fdc-13ae-4bcd-9ce3-0ebb31aa24e0, tracking 2 files
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761924121118
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761924121118 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761924123293
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761924123293 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761924155326
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 813 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761924155326 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761924155406
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 61637 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761924155406 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761924198356
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 815 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761924198356 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761924198433
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 63123 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761924198433 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761924228230
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 819 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761924228230 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761924228312
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 63231 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761924228312 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761924228454
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 63665 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761924228454 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761924242743
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 821 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761924242743 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761924242818
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 63747 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761924242818 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Writing to temp file: /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761924261872
+[DEBUG] Preserving file permissions: 100775
+[DEBUG] Temp file written successfully, size: 63828 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py.tmp.71361.1761924261872 to /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py
+[DEBUG] File /media/raine/VM/MITRA_BOX_DOC/Marker/batch_emails_to_markdown_llm_Q3.py written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761924277016
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json.tmp.71361.1761924277016 to /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json
+[DEBUG] File /home/raine/.claude/todos/9647676c-50bb-44e4-8f4b-d7da1be6070a-agent-9647676c-50bb-44e4-8f4b-d7da1be6070a.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+    at ZH (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1175:4413)
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1175:4141
+    at Array.map (<anonymous>)
+    at MV (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1175:4132)
+    at yTB (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1798:6323)
+    at Fq (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:73:19414)
+    at dr (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:42814)
+    at b9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38355)
+    at Vc (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38283)
+    at wq (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38137)
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+    at ZH (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1175:4413)
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1175:4141
+    at Array.map (<anonymous>)
+    at MV (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1175:4132)
+    at yTB (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1798:6323)
+    at Fq (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:73:19414)
+    at dr (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:42814)
+    at b9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38355)
+    at Vc (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38283)
+    at wq (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38137)
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+    at ZH (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1175:4413)
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1175:4141
+    at Array.map (<anonymous>)
+    at MV (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1175:4132)
+    at yTB (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1798:6323)
+    at Fq (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:73:19414)
+    at dr (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:42814)
+    at b9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38355)
+    at Vc (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38283)
+    at wq (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:75:38137)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761924316055
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761924316055 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761924316091
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 83797 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761924316091 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761924316096
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761924316096 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761925171980
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761925171980 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761926971928
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761926971928 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761928772229
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761928772229 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761930571534
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761930571534 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761932372007
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761932372007 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761934171989
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761934171989 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761935972003
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761935972003 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761937771960
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761937771960 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761939572145
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761939572145 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761941372033
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761941372033 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761943172065
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761943172065 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761944972071
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761944972071 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761946772040
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761946772040 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761948577893
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761948577893 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761950372020
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761950372020 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761952172024
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761952172024 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761953972031
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761953972031 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761955772242
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761955772242 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761957572026
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761957572026 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761959372518
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761959372518 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761961171590
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761961171590 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761962972035
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761962972035 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761964772032
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761964772032 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761966572067
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761966572067 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761968371968
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761968371968 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761970172047
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761970172047 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761971972047
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761971972047 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761973772104
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761973772104 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761975572072
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761975572072 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761977372057
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761977372057 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761979172054
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761979172054 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761980972066
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761980972066 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761982772220
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761982772220 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761984572033
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761984572033 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761986372079
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761986372079 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761988172089
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761988172089 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761989971692
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761989971692 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761991773162
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761991773162 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761993572144
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761993572144 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761995372129
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761995372129 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761997172098
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761997172098 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1761998972180
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1761998972180 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762000772237
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762000772237 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762002572163
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762002572163 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762004372317
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762004372317 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762006172306
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762006172306 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762007972114
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762007972114 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762009772469
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762009772469 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762011572440
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762011572440 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762013372211
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762013372211 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762015172313
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762015172313 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762016972473
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762016972473 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762018772186
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762018772186 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762020572392
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762020572392 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762022372286
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762022372286 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762024172287
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762024172287 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762025972384
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762025972384 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762027773277
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762027773277 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762029572265
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762029572265 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762031372236
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762031372236 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762033172296
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762033172296 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762034972292
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762034972292 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762036772513
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762036772513 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762038572229
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762038572229 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762040372193
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762040372193 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762042172327
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762042172327 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762043972233
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762043972233 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762045772196
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84413 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762045772196 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762047572284
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84765 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762047572284 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762049372182
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 84898 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762049372182 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762051172194
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762051172194 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762052972334
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762052972334 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762054772269
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762054772269 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762056572263
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762056572263 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762058372316
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762058372316 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762060172278
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762060172278 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762061972344
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762061972344 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762063772298
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762063772298 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762065572442
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762065572442 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762067372299
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762067372299 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762069172295
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762069172295 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762070972282
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762070972282 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762072772289
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762072772289 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762074572284
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762074572284 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762076372344
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762076372344 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762078172332
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762078172332 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762079972377
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762079972377 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762081772402
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762081772402 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762083572341
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762083572341 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762085372397
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762085372397 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762087172429
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762087172429 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762088972374
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762088972374 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762090772371
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762090772371 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762092572445
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85071 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762092572445 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762094372512
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85291 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762094372512 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762096172414
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 85291 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762096172414 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762097972442
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 86124 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762097972442 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] Detected change to /home/raine/.claude/settings.json
+[DEBUG] Replacing all allow rules for destination 'localSettings' with 7 rule(s): ["Bash(python3:*)","Bash(chmod:*)","Bash(pip install:*)","Bash(venv_email/bin/pip install:*)","Bash(./run_email_converter.sh:*)","Bash(./batch_emails_to_markdown_llm_Q3.py:*)","Read(//media/raine/VM/MITRA_BOX_DOC/DOCUMENTS/NARAINE_ESTATE_EMAIL_MD/Burglary/PC Klaire Maddams 3466SN/**)"]
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762099772259
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 86783 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762099772259 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762101572533
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 87199 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762101572533 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762103373671
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 87917 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762103373671 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762105173208
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 89193 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762105173208 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762106974529
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 90618 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762106974529 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762108772299
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 91496 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762108772299 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762110573952
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 91835 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762110573952 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762112372460
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 91835 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762112372460 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762114172503
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 91835 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762114172503 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762115972508
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 91835 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762115972508 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762117772536
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 91835 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762117772536 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762119572456
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 91835 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762119572456 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762121372494
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 91835 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762121372494 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762123172936
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 91835 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762123172936 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762124972461
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 91835 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762124972461 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762126774509
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 92485 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762126774509 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762128573326
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 93917 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762128573326 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762130373525
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 93917 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762130373525 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762132172677
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94181 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762132172677 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762133973173
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94181 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762133973173 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762135772851
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94181 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762135772851 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762137572578
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94181 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762137572578 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762139372522
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94181 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762139372522 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762141172558
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94181 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762141172558 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762142972541
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94181 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762142972541 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762144772542
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94181 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762144772542 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762146572593
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94181 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762146572593 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762148372524
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94181 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762148372524 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762150172518
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94181 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762150172518 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762151972513
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94181 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762151972513 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762153797172
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94391 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762153797172 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762155572588
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762155572588 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762157372578
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762157372578 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762159172579
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762159172579 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762160972538
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762160972538 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762162772543
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762162772543 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762164572582
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762164572582 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762166372642
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762166372642 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762168172624
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762168172624 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762169972665
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762169972665 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762171772747
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762171772747 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762173572165
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762173572165 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762175372621
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762175372621 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762177172664
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762177172664 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762178972717
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762178972717 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762180772637
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762180772637 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762182572858
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762182572858 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762184372656
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762184372656 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762186172685
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762186172685 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762187972653
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762187972653 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762189773470
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762189773470 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762191572606
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762191572606 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762193372896
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762193372896 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762195172725
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762195172725 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762196972841
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762196972841 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762198772751
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762198772751 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762200572960
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762200572960 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762202372678
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762202372678 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762204172698
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762204172698 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762205972821
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762205972821 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762207772631
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94577 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762207772631 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762209573161
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94822 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762209573161 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762211373051
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94822 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762211373051 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762213173036
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94822 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762213173036 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762214972877
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94822 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762214972877 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762216772919
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 94914 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762216772919 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762218572846
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762218572846 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762220372648
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762220372648 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762222172755
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762222172755 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762223972873
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762223972873 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762225772941
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762225772941 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762227572873
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762227572873 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762229372923
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762229372923 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762231172924
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762231172924 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762232972316
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762232972316 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762234772886
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762234772886 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762236572967
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762236572967 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762238372900
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762238372900 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762240172987
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762240172987 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762241973511
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762241973511 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762243772847
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762243772847 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: unknown
+[DEBUG] AutoUpdater: Unknown installation type, falling back to config
+[DEBUG] Writing to temp file: /home/raine/.claude.json.tmp.71361.1762245572856
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 95092 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/raine/.claude.json.tmp.71361.1762245572856 to /home/raine/.claude.json
+[DEBUG] File /home/raine/.claude.json written atomically
